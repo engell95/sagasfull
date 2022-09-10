@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SEGUROINACTIVAR" xml:space="preserve">
+    <value>¿Esta seguro de inactivar el registro?</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="modificar24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modificar24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAGASLogo48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAGASLogo48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGULTIMOREGISTROINACTIVO" xml:space="preserve">
+    <value>No se puede inactivar, el registro actual es el último.</value>
+  </data>
+  <data name="exportar24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exportar24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAGAS logo final-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAGAS logo final-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGCAMBIOSGUARDADOS" xml:space="preserve">
+    <value>Los cambios se han guardado correctamente.</value>
+  </data>
+  <data name="filterDelete24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filterDelete24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TestDB24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TestDB24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salir24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salir24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ok20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ok20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="questionTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\questionTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warningTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warningTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="No20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\No20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGERROR" xml:space="preserve">
+    <value>Ha ocurrido una interrupción en el proceso del sistema.</value>
+  </data>
+  <data name="infoTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infoTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveDB24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaveDB24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zanzibar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zanzibar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGNOPUEDEINACTIVAR" xml:space="preserve">
+    <value>No puede Inactivar este registro. Esta siendo utilizado por el sistema.</value>
+  </data>
+  <data name="errorTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\errorTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anular24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anular24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="informationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\informationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGREVISARDATOS" xml:space="preserve">
+    <value>Por favor revise los datos requeridos de la ventana.</value>
+  </data>
+  <data name="PDF24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SagasLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SagasLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGVALIDARFECHA" xml:space="preserve">
+    <value>La Fecha Inicial no debe ser igual o mayor que la Fecha Final.</value>
+  </data>
+  <data name="SEGUROAPERTURARDIA" xml:space="preserve">
+    <value>¿Esta seguro de aperturar el día?</value>
+  </data>
+  <data name="OPERACIONMATEMATICAARQUEO" xml:space="preserve">
+    <value>Debe de finalizar la operacion con el signo ')' y el operador matemático de división  '/' o multiplicación '*'.</value>
+  </data>
+  <data name="bulb20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulb20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google_keep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google keep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TXTVISTAPREVIA" xml:space="preserve">
+    <value>Creando Vista Previa</value>
+  </data>
+  <data name="TXTCARGANDO" xml:space="preserve">
+    <value>Cargando los Datos del Registro</value>
+  </data>
+  <data name="TXTGUARDANDO" xml:space="preserve">
+    <value>Guardando los Registros</value>
+  </data>
+  <data name="MSGMODIFICADOVISTAPREVIA" xml:space="preserve">
+    <value>El registro fue modificado. ¿Desea guardar el registro antes de generar la vista previa?</value>
+  </data>
+  <data name="MSGMODIFICADOCLOSING" xml:space="preserve">
+    <value>El registro fue modificado. ¿Desea guardar el registro antes de cerrar la ventana?</value>
+  </data>
+  <data name="TXTCIERREREGISTRO" xml:space="preserve">
+    <value>Cerrando e Imprimiendo Registro</value>
+  </data>
+  <data name="MSGLICENCIAINVALIDA" xml:space="preserve">
+    <value>La licencia del sistema es invalida.</value>
+  </data>
+  <data name="MSGVALIDARLICENCIA" xml:space="preserve">
+    <value>¿Desea Validar la Licencia del Sistema?</value>
+  </data>
+  <data name="key_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_key_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-key-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_key_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save-key-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGARQUEOSISLASABIERTOS" xml:space="preserve">
+    <value>Existen Arqueo de Islas Abiertas o Islas sin Arqueo, verifique los arqueos de este turno para finalizar este proceso.</value>
+  </data>
+  <data name="printerLocal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGNOADMNISTRADOR" xml:space="preserve">
+    <value>La Estación seleccionada no tiene asignado un Administrador.</value>
+  </data>
+  <data name="MSGNOCONTADOR" xml:space="preserve">
+    <value>La Estación seleccionada no tiene asignado un Contador.</value>
+  </data>
+  <data name="MSGMODIFICADOFINALIZAR" xml:space="preserve">
+    <value>El registro fue modificado. ¿Desea guardar el registro antes de finalizar?</value>
+  </data>
+  <data name="MSGSELECCIONARCC" xml:space="preserve">
+    <value>Debe seleccionar la Cuenta Contable.</value>
+  </data>
+  <data name="Reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\column_single.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEGUROANULAR" xml:space="preserve">
+    <value>¿Esta seguro de anular el registro?</value>
+  </data>
+  <data name="SEGUROBORRAR" xml:space="preserve">
+    <value>¿Esta seguro de borrar el registro?</value>
+  </data>
+  <data name="MSGNOTIPOCAMBIO" xml:space="preserve">
+    <value>No existe Tipo de Cambio para la fecha seleccionada, favor comunicarse con oficina central.</value>
+  </data>
+  <data name="MSGESCERO" xml:space="preserve">
+    <value>El total del movimiento es 0 "CERO", ¿Desea Continuar?</value>
+  </data>
+  <data name="MSGNUEVOREGISTRO" xml:space="preserve">
+    <value>¿Desea crear un nuevo registro?</value>
+  </data>
+  <data name="MSGCOMPROBANTEDESCUADRADO" xml:space="preserve">
+    <value>El compronte contable del movimiento esta descuadrado.</value>
+  </data>
+  <data name="TXTFORMULARIO" xml:space="preserve">
+    <value>Creando el formulario</value>
+  </data>
+  <data name="MSGYAANULADO" xml:space="preserve">
+    <value>El registro ya esta anulado.</value>
+  </data>
+  <data name="TXTANULANDO" xml:space="preserve">
+    <value>Anulando el registro</value>
+  </data>
+  <data name="MSGINVENTARIOBLOQUEADO" xml:space="preserve">
+    <value>Los movimientos de inventario esta bloqueado para esta fecha.  </value>
+  </data>
+  <data name="Mostrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_side_contract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ocultar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_side_expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSGFECHADOCUMENTOMAYORFECHAPAGO" xml:space="preserve">
+    <value>Se esta pagando un documento con fecha mayor a la fecha de pago.</value>
+  </data>
+  <data name="TXTACTUALIZANDO" xml:space="preserve">
+    <value>Actualizando cálculos de los Registros</value>
+  </data>
+  <data name="Reportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reports-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEGUROACTIVAR" xml:space="preserve">
+    <value>¿Está seguro de activar el registro?</value>
+  </data>
+  <data name="MSGCIERRECONTABLE" xml:space="preserve">
+    <value>El Periodo Contable para esta fecha ya esta cerrado</value>
+  </data>
+</root>

@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEDC25EA-6D33-460A-85CB-9F8F82EE33E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAGAS.Reportes</RootNamespace>
+    <AssemblyName>SAGAS.Reportes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.1.UI, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v14.1.Data.Services, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v14.1.Design, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.1.Design, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.1.Wizard, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.1.Extensions, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.1.UI, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.1.Presets, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.1.Win, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1.Design, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.1.Design, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Design, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Extensions, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1.Service, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Service, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Web, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteBaja.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteBaja.Designer.cs">
+      <DependentUpon>RptComprobanteBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteTraslado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteTraslado.Designer.cs">
+      <DependentUpon>RptComprobanteTraslado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptDepreciacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptDepreciacion.Designer.cs">
+      <DependentUpon>RptDepreciacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteActivoFijo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptComprobanteActivoFijo.Designer.cs">
+      <DependentUpon>RptComprobanteActivoFijo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptDetalleDepreciacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActivoFijo\Hojas\RptDetalleDepreciacion.Designer.cs">
+      <DependentUpon>RptDetalleDepreciacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Charts\FormChartExtraxionVerificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Charts\FormChartExtraxionVerificacion.Designer.cs">
+      <DependentUpon>FormChartExtraxionVerificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Dialogs\DialogGetDataArqueo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Dialogs\DialogGetDataArqueo.designer.cs">
+      <DependentUpon>DialogGetDataArqueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptExtraxionVerificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptExtraxionVerificacion.Designer.cs">
+      <DependentUpon>FormRptExtraxionVerificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptVentasContado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptVentasContado.Designer.cs">
+      <DependentUpon>FormRptVentasContado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptEfectivoRecibido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptEfectivoRecibido.Designer.cs">
+      <DependentUpon>FormRptEfectivoRecibido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptFormasPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptFormasPago.Designer.cs">
+      <DependentUpon>FormRptFormasPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptDistribucionExtraxion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptDistribucionExtraxion.Designer.cs">
+      <DependentUpon>FormRptDistribucionExtraxion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptFaltanteSobrante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Forms\FormRptFaltanteSobrante.Designer.cs">
+      <DependentUpon>FormRptFaltanteSobrante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptEstadoResultado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptEstadoResultado.Designer.cs">
+      <DependentUpon>SubRptEstadoResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptEstadoResultado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptEstadoResultado.designer.cs">
+      <DependentUpon>RptEstadoResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptBalanzaComprobacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptBalanzaComprobacion.Designer.cs">
+      <DependentUpon>RptBalanzaComprobacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteCD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteCD.Designer.cs">
+      <DependentUpon>RptComprobanteCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteArqueo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteArqueo.Designer.cs">
+      <DependentUpon>RptComprobanteArqueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteROC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteROC.Designer.cs">
+      <DependentUpon>RptComprobanteROC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptDetalleCuentas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptDetalleCuentas.Designer.cs">
+      <DependentUpon>RptDetalleCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptDetalleCuentas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptDetalleCuentas.Designer.cs">
+      <DependentUpon>SubRptDetalleCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptBalance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\SubRptBalance.Designer.cs">
+      <DependentUpon>SubRptBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportSSRS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportSSRS.Designer.cs">
+      <DependentUpon>FormReportSSRS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRptReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRptReport.designer.cs">
+      <DependentUpon>FormRptReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptCierreKardex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptCierreKardex.Designer.cs">
+      <DependentUpon>SubRptCierreKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptKardexCierre.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptKardexCierre.Designer.cs">
+      <DependentUpon>SubRptKardexCierre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptKardexCierre.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptKardexCierre.Designer.cs">
+      <DependentUpon>RptKardexCierre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteTraslado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteTraslado.Designer.cs">
+      <DependentUpon>RptComprobanteTraslado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptProveedoresUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptProveedoresUpload.Designer.cs">
+      <DependentUpon>RptProveedoresUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptComprobante.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptComprobante.Designer.cs">
+      <DependentUpon>SubRptComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioUpload.Designer.cs">
+      <DependentUpon>RptInventarioUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptPrestamoManejo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptPrestamoManejo.Designer.cs">
+      <DependentUpon>RptPrestamoManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptDetalleKardex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptDetalleKardex.Designer.cs">
+      <DependentUpon>SubRptDetalleKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptKardex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptKardex.Designer.cs">
+      <DependentUpon>RptKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteSalidaCombustible.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteSalidaCombustible.Designer.cs">
+      <DependentUpon>RptComprobanteSalidaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptAjusteInventario.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptAjusteInventario.Designer.cs">
+      <DependentUpon>RptAjusteInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptLitrosManejo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\SubRptLitrosManejo.Designer.cs">
+      <DependentUpon>SubRptLitrosManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptPagoArqueos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptPagoArqueos.Designer.cs">
+      <DependentUpon>SubRptPagoArqueos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptPivotProduct.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptPivotProduct.Designer.cs">
+      <DependentUpon>SubRptPivotProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptValoresVenta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptValoresVenta.Designer.cs">
+      <DependentUpon>SubRptValoresVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptValorDistribucion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptValorDistribucion.Designer.cs">
+      <DependentUpon>SubRptValorDistribucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptLecturas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptLecturas.Designer.cs">
+      <DependentUpon>SubRptLecturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptArqueoTest.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptArqueoTest.Designer.cs">
+      <DependentUpon>RptArqueoTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptProductoCupon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptProductoCupon.Designer.cs">
+      <DependentUpon>SubRptProductoCupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptListExtracciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\SubRptListExtracciones.Designer.cs">
+      <DependentUpon>SubRptListExtracciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptResumenCupones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptResumenCupones.Designer.cs">
+      <DependentUpon>RptResumenCupones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptEfectivo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptEfectivo.Designer.cs">
+      <DependentUpon>RptEfectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptArqueo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arqueos\Hojas\RptArqueo.Designer.cs">
+      <DependentUpon>RptArqueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteVentaCredito.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteVentaCredito.Designer.cs">
+      <DependentUpon>RptComprobanteVentaCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptEntradaSalidaManejo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptEntradaSalidaManejo.Designer.cs">
+      <DependentUpon>RptEntradaSalidaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteVenta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteVenta.Designer.cs">
+      <DependentUpon>RptComprobanteVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteProvision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteProvision.Designer.cs">
+      <DependentUpon>RptComprobanteProvision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptComprobanteCompra.Designer.cs">
+      <DependentUpon>RptComprobanteCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCrystalViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCrystalViewer.designer.cs">
+      <DependentUpon>FormCrystalViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptActaCombustible.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptActaCombustible.Designer.cs">
+      <DependentUpon>RptActaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioCombustible.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioCombustible.Designer.cs">
+      <DependentUpon>RptInventarioCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioFisico.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptInventarioFisico.Designer.cs">
+      <DependentUpon>RptInventarioFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptDevolucionConversion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptDevolucionConversion.Designer.cs">
+      <DependentUpon>RptDevolucionConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteMovimiento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptComprobanteMovimiento.Designer.cs">
+      <DependentUpon>RptComprobanteMovimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptOrdenCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptOrdenCompra.Designer.cs">
+      <DependentUpon>RptOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIReports.designer.cs">
+      <DependentUpon>MDIReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportViewer.designer.cs">
+      <DependentUpon>FormReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\comprobantePago.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\comprobantePago.designer.cs">
+      <DependentUpon>comprobantePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ComprobantePagoAguinaldo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ComprobantePagoAguinaldo.designer.cs">
+      <DependentUpon>ComprobantePagoAguinaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\LicenciaVacaciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\LicenciaVacaciones.designer.cs">
+      <DependentUpon>LicenciaVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\LiquidacionZ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\LiquidacionZ.designer.cs">
+      <DependentUpon>LiquidacionZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\RptCambiosEmpleados.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\RptCambiosEmpleados.designer.cs">
+      <DependentUpon>RptCambiosEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\RptPagoVacaciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\RptPagoVacaciones.designer.cs">
+      <DependentUpon>RptPagoVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\PlanillaAguinaldo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\PlanillaAguinaldo.designer.cs">
+      <DependentUpon>PlanillaAguinaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\Planillaz.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\Planillaz.designer.cs">
+      <DependentUpon>Planillaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReporteCuentaBDF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReporteCuentaBDF.designer.cs">
+      <DependentUpon>ReporteCuentaBDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReportePlanilla.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReportePlanilla.designer.cs">
+      <DependentUpon>ReportePlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReporteFormatoHE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\ReporteFormatoHE.designer.cs">
+      <DependentUpon>ReporteFormatoHE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nomina\Hojas\SubRptECEmpleado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nomina\Hojas\SubRptECEmpleado.Designer.cs">
+      <DependentUpon>SubRptECEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SAGASDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAGASDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptSaldoAnticipo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptSaldoAnticipo.designer.cs">
+      <DependentUpon>RptSaldoAnticipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptComprobanteCheque.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptComprobanteCheque.designer.cs">
+      <DependentUpon>RptComprobanteCheque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptCoprobanteCajaChica.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptCoprobanteCajaChica.Designer.cs">
+      <DependentUpon>RptCoprobanteCajaChica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptECProveedor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptECProveedor.designer.cs">
+      <DependentUpon>RptECProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptECProveedorMov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\RptECProveedorMov.designer.cs">
+      <DependentUpon>RptECProveedorMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\SubRptECProveedor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\SubRptECProveedor.designer.cs">
+      <DependentUpon>SubRptECProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\SubRptECProveedorMov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\Hojas\SubRptECProveedorMov.designer.cs">
+      <DependentUpon>SubRptECProveedorMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+    <Compile Include="Inventario\Hojas\RptActaManejo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Hojas\RptActaManejo.Designer.cs">
+      <DependentUpon>RptActaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptBalance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Hojas\RptBalance.designer.cs">
+      <DependentUpon>RptBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesCreditos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesCreditos.designer.cs">
+      <DependentUpon>RptClientesCreditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClienteMov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClienteMov.designer.cs">
+      <DependentUpon>RptECClienteMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptLiquidacionDeposito.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptLiquidacionDeposito.Designer.cs">
+      <DependentUpon>RptLiquidacionDeposito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClientesMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClientesMain.Designer.cs">
+      <DependentUpon>RptECClientesMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesSalesUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesSalesUpload.Designer.cs">
+      <DependentUpon>RptClientesSalesUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptComprobanteNotaDC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptComprobanteNotaDC.Designer.cs">
+      <DependentUpon>RptComprobanteNotaDC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClientes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptECClientes.Designer.cs">
+      <DependentUpon>RptECClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptClientesUpload.Designer.cs">
+      <DependentUpon>RptClientesUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptROC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\RptROC.Designer.cs">
+      <DependentUpon>RptROC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\SubRptECClienteMov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\SubRptECClienteMov.designer.cs">
+      <DependentUpon>SubRptECClienteMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Hojas\SubRptECClientes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ventas\Hojas\SubRptECClientes.Designer.cs">
+      <DependentUpon>SubRptECClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActivoFijo\Hojas\RptComprobanteBaja.resx">
+      <DependentUpon>RptComprobanteBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivoFijo\Hojas\RptComprobanteTraslado.resx">
+      <DependentUpon>RptComprobanteTraslado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivoFijo\Hojas\RptDepreciacion.resx">
+      <DependentUpon>RptDepreciacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivoFijo\Hojas\RptComprobanteActivoFijo.resx">
+      <DependentUpon>RptComprobanteActivoFijo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivoFijo\Hojas\RptDetalleDepreciacion.resx">
+      <DependentUpon>RptDetalleDepreciacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Charts\FormChartExtraxionVerificacion.resx">
+      <DependentUpon>FormChartExtraxionVerificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Dialogs\DialogGetDataArqueo.resx">
+      <DependentUpon>DialogGetDataArqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptExtraxionVerificacion.resx">
+      <DependentUpon>FormRptExtraxionVerificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptVentasContado.resx">
+      <DependentUpon>FormRptVentasContado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptEfectivoRecibido.resx">
+      <DependentUpon>FormRptEfectivoRecibido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptFormasPago.resx">
+      <DependentUpon>FormRptFormasPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptDistribucionExtraxion.resx">
+      <DependentUpon>FormRptDistribucionExtraxion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Forms\FormRptFaltanteSobrante.resx">
+      <DependentUpon>FormRptFaltanteSobrante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\SubRptEstadoResultado.resx">
+      <DependentUpon>SubRptEstadoResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptEstadoResultado.resx">
+      <DependentUpon>RptEstadoResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptBalanzaComprobacion.resx">
+      <DependentUpon>RptBalanzaComprobacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteCD.resx">
+      <DependentUpon>RptComprobanteCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteArqueo.resx">
+      <DependentUpon>RptComprobanteArqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteROC.resx">
+      <DependentUpon>RptComprobanteROC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptDetalleCuentas.resx">
+      <DependentUpon>RptDetalleCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\SubRptDetalleCuentas.resx">
+      <DependentUpon>SubRptDetalleCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\SubRptBalance.resx">
+      <DependentUpon>SubRptBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportSSRS.resx">
+      <DependentUpon>FormReportSSRS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRptReport.resx">
+      <DependentUpon>FormRptReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\SubRptCierreKardex.resx">
+      <DependentUpon>SubRptCierreKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\SubRptKardexCierre.resx">
+      <DependentUpon>SubRptKardexCierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptKardexCierre.resx">
+      <DependentUpon>RptKardexCierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptComprobanteTraslado.resx">
+      <DependentUpon>RptComprobanteTraslado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptProveedoresUpload.resx">
+      <DependentUpon>RptProveedoresUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\SubRptComprobante.resx">
+      <DependentUpon>SubRptComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptInventarioUpload.resx">
+      <DependentUpon>RptInventarioUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptPrestamoManejo.resx">
+      <DependentUpon>RptPrestamoManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\SubRptDetalleKardex.resx">
+      <DependentUpon>SubRptDetalleKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptKardex.resx">
+      <DependentUpon>RptKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptComprobanteSalidaCombustible.resx">
+      <DependentUpon>RptComprobanteSalidaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptAjusteInventario.resx">
+      <DependentUpon>RptAjusteInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\SubRptLitrosManejo.resx">
+      <DependentUpon>SubRptLitrosManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptPagoArqueos.resx">
+      <DependentUpon>SubRptPagoArqueos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptPivotProduct.resx">
+      <DependentUpon>SubRptPivotProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptValoresVenta.resx">
+      <DependentUpon>SubRptValoresVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptValorDistribucion.resx">
+      <DependentUpon>SubRptValorDistribucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptLecturas.resx">
+      <DependentUpon>SubRptLecturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\RptArqueoTest.resx">
+      <DependentUpon>RptArqueoTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptProductoCupon.resx">
+      <DependentUpon>SubRptProductoCupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\SubRptListExtracciones.resx">
+      <DependentUpon>SubRptListExtracciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\RptResumenCupones.resx">
+      <DependentUpon>RptResumenCupones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\RptEfectivo.resx">
+      <DependentUpon>RptEfectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arqueos\Hojas\RptArqueo.resx">
+      <DependentUpon>RptArqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteVentaCredito.resx">
+      <DependentUpon>RptComprobanteVentaCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptEntradaSalidaManejo.resx">
+      <DependentUpon>RptEntradaSalidaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteVenta.resx">
+      <DependentUpon>RptComprobanteVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteProvision.resx">
+      <DependentUpon>RptComprobanteProvision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptComprobanteCompra.resx">
+      <DependentUpon>RptComprobanteCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCrystalViewer.resx">
+      <DependentUpon>FormCrystalViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptActaCombustible.resx">
+      <DependentUpon>RptActaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptInventarioCombustible.resx">
+      <DependentUpon>RptInventarioCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptInventarioFisico.resx">
+      <DependentUpon>RptInventarioFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptDevolucionConversion.resx">
+      <DependentUpon>RptDevolucionConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptComprobanteMovimiento.resx">
+      <DependentUpon>RptComprobanteMovimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Hojas\RptOrdenCompra.resx">
+      <DependentUpon>RptOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIReports.resx">
+      <DependentUpon>MDIReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportViewer.resx">
+      <DependentUpon>FormReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\comprobantePago.resx">
+      <DependentUpon>comprobantePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\ComprobantePagoAguinaldo.resx">
+      <DependentUpon>ComprobantePagoAguinaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\LicenciaVacaciones.resx">
+      <DependentUpon>LicenciaVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\LiquidacionZ.resx">
+      <DependentUpon>LiquidacionZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\RptCambiosEmpleados.resx">
+      <DependentUpon>RptCambiosEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\RptPagoVacaciones.resx">
+      <DependentUpon>RptPagoVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\PlanillaAguinaldo.resx">
+      <DependentUpon>PlanillaAguinaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\Planillaz.resx">
+      <DependentUpon>Planillaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\ReporteCuentaBDF.resx">
+      <DependentUpon>ReporteCuentaBDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\ReportePlanilla.resx">
+      <DependentUpon>ReportePlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\ReporteFormatoHE.resx">
+      <DependentUpon>ReporteFormatoHE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomina\Hojas\SubRptECEmpleado.resx">
+      <DependentUpon>SubRptECEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Inventario\Hojas\RptActaManejo.resx">
+      <DependentUpon>RptActaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\RptSaldoAnticipo.resx">
+      <DependentUpon>RptSaldoAnticipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\RptComprobanteCheque.resx">
+      <DependentUpon>RptComprobanteCheque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\RptCoprobanteCajaChica.resx">
+      <DependentUpon>RptCoprobanteCajaChica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\RptECProveedor.resx">
+      <DependentUpon>RptECProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\RptECProveedorMov.resx">
+      <DependentUpon>RptECProveedorMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\SubRptECProveedor.resx">
+      <DependentUpon>SubRptECProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\Hojas\SubRptECProveedorMov.resx">
+      <DependentUpon>SubRptECProveedorMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Hojas\RptBalance.resx">
+      <DependentUpon>RptBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptClientesCreditos.resx">
+      <DependentUpon>RptClientesCreditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptECClienteMov.resx">
+      <DependentUpon>RptECClienteMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptLiquidacionDeposito.resx">
+      <DependentUpon>RptLiquidacionDeposito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptECClientesMain.resx">
+      <DependentUpon>RptECClientesMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptClientesSalesUpload.resx">
+      <DependentUpon>RptClientesSalesUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptComprobanteNotaDC.resx">
+      <DependentUpon>RptComprobanteNotaDC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptECClientes.resx">
+      <DependentUpon>RptECClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptClientesUpload.resx">
+      <DependentUpon>RptClientesUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\RptROC.resx">
+      <DependentUpon>RptROC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\SubRptECClienteMov.resx">
+      <DependentUpon>SubRptECClienteMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Hojas\SubRptECClientes.resx">
+      <DependentUpon>SubRptECClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.DocumentosPagadosEmpleadoResult.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.ExtracionPago.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.GetBalanzaComprobacionResult.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.GetListaActivosDepreciadosResult.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.GetListaArqueosAprobadosResult.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.MovimientoPago.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.MovimientosPagadosResult.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaActaManejo.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaCargaVentaClientes.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaChequesAnticipo.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaComprobante.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaDepreciacion.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaDetalleMovimientoPlanilla.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaDiasCuentaVacacione.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaGetInventarioCorte.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioCombustible.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioCombustibleDetalle.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioCombustibleValore.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioFisico.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioFisicoDetalle.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaInventarioUpload.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaKardex.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaLiquidacion.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaMovimiento.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaMovimientoEmpleadoHorasExtras.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaOrdenesCompra.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaOrdenesComprasDetalle.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaPagoAguinaldo.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaPagoVacacione.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaPlantilasInicales.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaPlantillaCargaCliente.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaRptMovimientoDetalle.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SAGASDataSet.xsc">
+      <DependentUpon>SAGASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SAGASDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAGASDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SAGASDataSet.xss">
+      <DependentUpon>SAGASDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAGAS.Entidad\SAGAS.Entidad.csproj">
+      <Project>{D8F40A99-8E83-4F04-8059-56D2755B0D8D}</Project>
+      <Name>SAGAS.Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Parametros\SAGAS.Parametros.csproj">
+      <Project>{1E0CCE69-12B6-4273-9F61-B9D16ED8B56A}</Project>
+      <Name>SAGAS.Parametros</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

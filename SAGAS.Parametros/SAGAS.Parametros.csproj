@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E0CCE69-12B6-4273-9F61-B9D16ED8B56A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAGAS.Parametros</RootNamespace>
+    <AssemblyName>SAGAS.Parametros</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Presets, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Win, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="MyXtraGridPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridPedido.Designer.cs">
+      <DependentUpon>MyXtraGridPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridHorasExtras.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridHorasExtras.Designer.cs">
+      <DependentUpon>MyXtraGridHorasExtras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridAltaAF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridAltaAF.Designer.cs">
+      <DependentUpon>MyXtraGridAltaAF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncAnimationForm.cs" />
+    <Compile Include="MyXtraGridLiquidacionDeposito.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridLiquidacionDeposito.Designer.cs">
+      <DependentUpon>MyXtraGridLiquidacionDeposito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridCD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridCD.Designer.cs">
+      <DependentUpon>MyXtraGridCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridComprobante.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridComprobante.Designer.cs">
+      <DependentUpon>MyXtraGridComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridCajaChica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridCajaChica.Designer.cs">
+      <DependentUpon>MyXtraGridCajaChica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridCheque.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridCheque.Designer.cs">
+      <DependentUpon>MyXtraGridCheque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridPrestamoManejo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridPrestamoManejo.Designer.cs">
+      <DependentUpon>MyXtraGridPrestamoManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridNotasDC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridNotasDC.Designer.cs">
+      <DependentUpon>MyXtraGridNotasDC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridSalidaCombustible.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridSalidaCombustible.Designer.cs">
+      <DependentUpon>MyXtraGridSalidaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridROC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridROC.Designer.cs">
+      <DependentUpon>MyXtraGridROC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridVentaCredito.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridVentaCredito.Designer.cs">
+      <DependentUpon>MyXtraGridVentaCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridEntradaManejo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridEntradaManejo.Designer.cs">
+      <DependentUpon>MyXtraGridEntradaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridMovimientoInventario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridMovimientoInventario.Designer.cs">
+      <DependentUpon>MyXtraGridMovimientoInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXtraGridVentas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridVentas.Designer.cs">
+      <DependentUpon>MyXtraGridVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyBarButtonItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyXRLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPrinter.designer.cs">
+      <DependentUpon>DialogPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogKeyGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogKeyGen.designer.cs">
+      <DependentUpon>DialogKeyGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogLicencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogLicencia.designer.cs">
+      <DependentUpon>DialogLicencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\WaitSplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\WaitSplashForm.Designer.cs">
+      <DependentUpon>WaitSplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLicencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLicencia.Designer.cs">
+      <DependentUpon>FormLicencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXRTableCell.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyBand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormReportViewer.designer.cs">
+      <DependentUpon>FormReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="MyBandColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridOCD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyXtraGridOCD.Designer.cs">
+      <DependentUpon>MyXtraGridOCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security.cs" />
+    <Compile Include="Forms\Dialogs\DialogConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogConexion.designer.cs">
+      <DependentUpon>DialogConexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMessage.designer.cs">
+      <DependentUpon>DialogMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MyXtraGridPedido.resx">
+      <DependentUpon>MyXtraGridPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridHorasExtras.resx">
+      <DependentUpon>MyXtraGridHorasExtras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridAltaAF.resx">
+      <DependentUpon>MyXtraGridAltaAF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridLiquidacionDeposito.resx">
+      <DependentUpon>MyXtraGridLiquidacionDeposito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridCD.resx">
+      <DependentUpon>MyXtraGridCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridComprobante.resx">
+      <DependentUpon>MyXtraGridComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridCajaChica.resx">
+      <DependentUpon>MyXtraGridCajaChica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridCheque.resx">
+      <DependentUpon>MyXtraGridCheque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridPrestamoManejo.resx">
+      <DependentUpon>MyXtraGridPrestamoManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridNotasDC.resx">
+      <DependentUpon>MyXtraGridNotasDC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridSalidaCombustible.resx">
+      <DependentUpon>MyXtraGridSalidaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridROC.resx">
+      <DependentUpon>MyXtraGridROC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridVentaCredito.resx">
+      <DependentUpon>MyXtraGridVentaCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridEntradaManejo.resx">
+      <DependentUpon>MyXtraGridEntradaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridMovimientoInventario.resx">
+      <DependentUpon>MyXtraGridMovimientoInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridVentas.resx">
+      <DependentUpon>MyXtraGridVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogPrinter.resx">
+      <DependentUpon>DialogPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogKeyGen.resx">
+      <DependentUpon>DialogKeyGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogLicencia.resx">
+      <DependentUpon>DialogLicencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogConexion.resx">
+      <DependentUpon>DialogConexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogMessage.resx">
+      <DependentUpon>DialogMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\WaitSplashForm.resx">
+      <DependentUpon>WaitSplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLicencia.resx">
+      <DependentUpon>FormLicencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormReportViewer.resx">
+      <DependentUpon>FormReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyXtraGridOCD.resx">
+      <DependentUpon>MyXtraGridOCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warningTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\errorTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-icon28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-icon28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveDB24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TestDB24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAGAS.Entidad\SAGAS.Entidad.csproj">
+      <Project>{D8F40A99-8E83-4F04-8059-56D2755B0D8D}</Project>
+      <Name>SAGAS.Entidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exportar24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zanzibar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informationIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filterDelete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filterDelete24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAGASLogo48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAGAS logo final-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagasLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google keep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulb20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-key-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-key-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\column_single.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_side_contract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_side_expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-reports-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reports-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3857019-446A-4428-9506-8993239DCF57}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAGAS.Inventario</RootNamespace>
+    <AssemblyName>SAGAS.Inventario</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Win, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Dialogs\DialogComprasPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogComprasPedido.designer.cs">
+      <DependentUpon>DialogComprasPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPedidoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPedidoCombustible.designer.cs">
+      <DependentUpon>DialogPedidoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProductoVariacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProductoVariacion.designer.cs">
+      <DependentUpon>DialogProductoVariacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCierreInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCierreInventario.Designer.cs">
+      <DependentUpon>FormCierreInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormComprasPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormComprasPedido.Designer.cs">
+      <DependentUpon>FormComprasPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPedidoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPedidoCombustible.Designer.cs">
+      <DependentUpon>FormPedidoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptActaConcManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptActaConcManejo.designer.cs">
+      <DependentUpon>FormRptActaConcManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProductoVariacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProductoVariacion.Designer.cs">
+      <DependentUpon>FormProductoVariacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTrasladoExterno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTrasladoExterno.Designer.cs">
+      <DependentUpon>FormTrasladoExterno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTraslado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTraslado.designer.cs">
+      <DependentUpon>DialogTraslado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRecosteo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRecosteo.designer.cs">
+      <DependentUpon>FormRecosteo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProveedorUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProveedorUpload.designer.cs">
+      <DependentUpon>DialogProveedorUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioUpload.designer.cs">
+      <DependentUpon>DialogInventarioUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProveedorUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProveedorUpload.Designer.cs">
+      <DependentUpon>FormProveedorUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInventarioUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInventarioUpload.Designer.cs">
+      <DependentUpon>FormInventarioUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptExistenciaKardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptExistenciaKardex.designer.cs">
+      <DependentUpon>FormRptExistenciaKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogActaCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogActaCombustible.designer.cs">
+      <DependentUpon>DialogActaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEntradaManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEntradaManejo.designer.cs">
+      <DependentUpon>DialogEntradaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetManejo.designer.cs">
+      <DependentUpon>DialogGetManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSalidaManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSalidaManejo.designer.cs">
+      <DependentUpon>DialogSalidaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAutoconsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAutoconsumo.designer.cs">
+      <DependentUpon>DialogAutoconsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPrestamoManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPrestamoManejo.designer.cs">
+      <DependentUpon>DialogPrestamoManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormActaCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormActaCombustible.Designer.cs">
+      <DependentUpon>FormActaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioCombustible.designer.cs">
+      <DependentUpon>DialogInventarioCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptKardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptKardex.designer.cs">
+      <DependentUpon>FormRptKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEntradaManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEntradaManejo.Designer.cs">
+      <DependentUpon>FormEntradaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInventarioCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInventarioCombustible.Designer.cs">
+      <DependentUpon>FormInventarioCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogDevolucionConversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogDevolucionConversion.designer.cs">
+      <DependentUpon>DialogDevolucionConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDevolucionConversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDevolucionConversion.Designer.cs">
+      <DependentUpon>FormDevolucionConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEntradaSalidaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEntradaSalidaInventario.designer.cs">
+      <DependentUpon>DialogEntradaSalidaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEntradaSalidaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEntradaSalidaInventario.Designer.cs">
+      <DependentUpon>FormEntradaSalidaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAjusteInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAjusteInventario.designer.cs">
+      <DependentUpon>DialogAjusteInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAjusteInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAjusteInventario.Designer.cs">
+      <DependentUpon>FormAjusteInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioFisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogInventarioFisico.designer.cs">
+      <DependentUpon>DialogInventarioFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInventarioFisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInventarioFisico.Designer.cs">
+      <DependentUpon>FormInventarioFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSeleccionarOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSeleccionarOrden.designer.cs">
+      <DependentUpon>DialogSeleccionarOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogComentario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogComentario.designer.cs">
+      <DependentUpon>DialogComentario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogOrdenCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogOrdenCompras.designer.cs">
+      <DependentUpon>DialogOrdenCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOrdenCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormOrdenCompras.Designer.cs">
+      <DependentUpon>FormOrdenCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKardex.Designer.cs">
+      <DependentUpon>FormKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCompras.designer.cs">
+      <DependentUpon>DialogCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAlmacen.designer.cs">
+      <DependentUpon>DialogAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProveedores.designer.cs">
+      <DependentUpon>DialogProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCompras.Designer.cs">
+      <DependentUpon>FormCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAlmacen.Designer.cs">
+      <DependentUpon>FormAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProveedores.Designer.cs">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSalidaManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSalidaManejo.Designer.cs">
+      <DependentUpon>FormSalidaManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAutoConsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAutoConsumo.Designer.cs">
+      <DependentUpon>FormAutoConsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPrestamoManejo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPrestamoManejo.Designer.cs">
+      <DependentUpon>FormPrestamoManejo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Dialogs\DialogComprasPedido.resx">
+      <DependentUpon>DialogComprasPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogPedidoCombustible.resx">
+      <DependentUpon>DialogPedidoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogProductoVariacion.resx">
+      <DependentUpon>DialogProductoVariacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCierreInventario.resx">
+      <DependentUpon>FormCierreInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormComprasPedido.resx">
+      <DependentUpon>FormComprasPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPedidoCombustible.resx">
+      <DependentUpon>FormPedidoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptActaConcManejo.resx">
+      <DependentUpon>FormRptActaConcManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProductoVariacion.resx">
+      <DependentUpon>FormProductoVariacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTrasladoExterno.resx">
+      <DependentUpon>FormTrasladoExterno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogTraslado.resx">
+      <DependentUpon>DialogTraslado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecosteo.resx">
+      <DependentUpon>FormRecosteo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogProveedorUpload.resx">
+      <DependentUpon>DialogProveedorUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogInventarioUpload.resx">
+      <DependentUpon>DialogInventarioUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProveedorUpload.resx">
+      <DependentUpon>FormProveedorUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInventarioUpload.resx">
+      <DependentUpon>FormInventarioUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptExistenciaKardex.resx">
+      <DependentUpon>FormRptExistenciaKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogActaCombustible.resx">
+      <DependentUpon>DialogActaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogEntradaManejo.resx">
+      <DependentUpon>DialogEntradaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogGetManejo.resx">
+      <DependentUpon>DialogGetManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogSalidaManejo.resx">
+      <DependentUpon>DialogSalidaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogAutoconsumo.resx">
+      <DependentUpon>DialogAutoconsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogPrestamoManejo.resx">
+      <DependentUpon>DialogPrestamoManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormActaCombustible.resx">
+      <DependentUpon>FormActaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogInventarioCombustible.resx">
+      <DependentUpon>DialogInventarioCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptKardex.resx">
+      <DependentUpon>FormRptKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEntradaManejo.resx">
+      <DependentUpon>FormEntradaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInventarioCombustible.resx">
+      <DependentUpon>FormInventarioCombustible.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogDevolucionConversion.resx">
+      <DependentUpon>DialogDevolucionConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDevolucionConversion.resx">
+      <DependentUpon>FormDevolucionConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogEntradaSalidaInventario.resx">
+      <DependentUpon>DialogEntradaSalidaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEntradaSalidaInventario.resx">
+      <DependentUpon>FormEntradaSalidaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogAjusteInventario.resx">
+      <DependentUpon>DialogAjusteInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAjusteInventario.resx">
+      <DependentUpon>FormAjusteInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogInventarioFisico.resx">
+      <DependentUpon>DialogInventarioFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInventarioFisico.resx">
+      <DependentUpon>FormInventarioFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogSeleccionarOrden.resx">
+      <DependentUpon>DialogSeleccionarOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogComentario.resx">
+      <DependentUpon>DialogComentario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogOrdenCompras.resx">
+      <DependentUpon>DialogOrdenCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOrdenCompras.resx">
+      <DependentUpon>FormOrdenCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKardex.resx">
+      <DependentUpon>FormKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogCompras.resx">
+      <DependentUpon>DialogCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogAlmacen.resx">
+      <DependentUpon>DialogAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogProveedores.resx">
+      <DependentUpon>DialogProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCompras.resx">
+      <DependentUpon>FormCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAlmacen.resx">
+      <DependentUpon>FormAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProveedores.resx">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSalidaManejo.resx">
+      <DependentUpon>FormSalidaManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAutoConsumo.resx">
+      <DependentUpon>FormAutoConsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPrestamoManejo.resx">
+      <DependentUpon>FormPrestamoManejo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\SAGAS.Entidad._Rpt_CierreInventario.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad._Rpt_CierreInventariosComb.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAGAS.Contabilidad\SAGAS.Contabilidad.csproj">
+      <Project>{896994FE-2B0A-4EDF-A8E2-226AC30C84DC}</Project>
+      <Name>SAGAS.Contabilidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Entidad\SAGAS.Entidad.csproj">
+      <Project>{D8F40A99-8E83-4F04-8059-56D2755B0D8D}</Project>
+      <Name>SAGAS.Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Parametros\SAGAS.Parametros.csproj">
+      <Project>{1E0CCE69-12B6-4273-9F61-B9D16ED8B56A}</Project>
+      <Name>SAGAS.Parametros</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Reportes\SAGAS.Reportes.csproj">
+      <Project>{FEDC25EA-6D33-460A-85CB-9F8F82EE33E8}</Project>
+      <Name>SAGAS.Reportes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowcurve18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetPass24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uncheck18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard_invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_put.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lorry_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_plain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_edit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

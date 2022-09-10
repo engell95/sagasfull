@@ -1,0 +1,42 @@
+; InstallSimple project
+
+[Setup]
+WindowTitle=SAGAS Updater (Actualizador)
+ProductName=SAGAS
+
+[Graphics]
+SplashScreen=
+SplashScreenDelay=3
+Header=
+HeaderJustify=Right
+HeaderFontColor=0
+WizardBitmap=
+WizardFontColor=0
+
+[FirstMessage]
+Actualizacion de la ventana de Estado Cuenta Deudor.
+[LastMessage]
+Thank you for using our software.
+
+[LicenseAgreement]
+Este sistema está licenciado bajo la normativa de Inversiones Zanzibar
+
+[SetupFiles]
+SourceFolder=D:\SAGAS\SAGAS\bin\New folder
+SpecialFolder=Program Files
+SetupPath=SAGAS
+SetupFile=D:\SAGAS\SAGAS_Updater_12_09_2016.exe
+
+[Shortcuts]
+ProgramGroup=
+
+[Registry]
+
+[Requirements]
+OperatingSystem=WinAll
+NetFramework=1.0
+NetFrameworkLink=http://www.microsoft.com/en-us/download/details.aspx?id=17718
+AdminRights=1
+
+[AfterInstalling]
+Reboot=0

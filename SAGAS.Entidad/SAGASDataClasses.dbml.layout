@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 32.375, 112" name="SAGASDataClasses">
+  <DataContextMoniker Name="/SAGASDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c99f9bb1-0370-444d-b597-c970314709a9" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Configuracion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c123fcb5-21b7-4dfa-b9c9-f2bdcb9e7455" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7deab2a0-6dd0-45ba-9372-49330e2bc713" absoluteBounds="6, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Empresa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56515c62-c584-4031-86ca-78d241756269" absoluteBounds="6.015, 0.96, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="079e892d-8b87-4026-9c17-e2b9e613b3bb" absoluteBounds="0.5, 2.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Zona" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68e4f3a6-c433-4c43-bd26-dafa11363ba9" absoluteBounds="0.51500000000000012, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="835c0a20-184e-4f6f-8e5c-0ba6c4ad4fef" absoluteBounds="3.25, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Audit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="543c8ef4-b85a-456d-987b-eae482fe88fa" absoluteBounds="3.2649999999999997, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b22309fc-f2c4-4fd1-825f-d6b493cba619" absoluteBounds="9.125, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Modulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e65cf7ac-114d-4274-becf-abca4fe80a9d" absoluteBounds="9.14, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfeb7c8e-dcd0-455e-9003-ea3f5569a57e" absoluteBounds="12.125, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Acceso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae7ca38f-f3bc-4863-881e-0db890801827" absoluteBounds="12.14, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85620408-73b1-4444-b8f3-541dde5871b4" absoluteBounds="12.125, 2.5, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AccesoSistema" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b63d898f-1ad0-4d15-9691-b117cdd14fb5" absoluteBounds="12.14, 2.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a30039e-197d-4d44-bc00-e2bb383b29de" absoluteBounds="9.125, 6.25, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/GetViewEstacionesServicioByUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a815bc48-23af-4e1d-8ac7-08f48ead8bd5" absoluteBounds="9.14, 6.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aa2e68fb-c8cc-45ed-b90d-6b0a4270651a" absoluteBounds="8.875, 12.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/UnidadMedida" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44645b45-38bb-41da-9e35-fcd193bedcbb" absoluteBounds="8.89, 12.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fdaa49ca-eaca-4ba2-88c7-b99bf19a494e" absoluteBounds="6.125, 14.75, 2, 1.5785953776041701">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoTanque" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ec89a71-b4c0-4ca8-baee-35e39c77fdf0" absoluteBounds="6.14, 15.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cee9ec4b-c4bb-4ae9-b96c-7db5e4df5fac" absoluteBounds="0.5, 15, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Isla" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42e03e17-84ea-4aef-9251-d4b337624fe7" absoluteBounds="0.51500000000000012, 15.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f96f092f-95d7-46f9-aea8-92fd830363ab" absoluteBounds="9.125, 3, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3de199dd-8460-4487-b9a7-0121c7d82c95" absoluteBounds="9.14, 3.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ccd3a6e-f6ff-4b9d-b8f8-ad3e8d76bd4b" absoluteBounds="0.5, 3.875, 2.125, 5.6169254557291648">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/EstacionServicio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="390ce235-66b2-4317-a166-a42db5a6a0d0" absoluteBounds="0.515, 4.335, 2.0949999999999998, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d624e5a-a102-43b2-8dc1-920745180a2d" absoluteBounds="5.875, 16.625, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Tanque" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5223a9a-e0a4-4204-9e4b-765e48943810" absoluteBounds="5.89, 17.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="590e7e77-b808-40ea-8275-54c97584bc2f" absoluteBounds="3.125, 9.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProductoClase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="11142a61-4845-4ab7-8329-8a70e69b5353" absoluteBounds="3.1399999999999997, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5e3b444-f079-48cc-8728-3bd3b3de4b98" absoluteBounds="9, 14.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PrecioCombustible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d2fd4cdd-e2d1-498e-8cdb-75c66db085a9" absoluteBounds="9.015, 15.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a517c331-b05b-4620-93d1-3ac896d75965" absoluteBounds="9, 17.25, 2, 2.15549967447917">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PrecioCombustibleDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2a833f2-3ab7-45b2-866b-cf7419015ff4" absoluteBounds="9.015, 17.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10 : 16.5881982421875); (10 : 17.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PrecioCombustible/PrecioCombustible_PrecioCombustibleDetalle" />
+      <nodes>
+        <classShapeMoniker Id="b5e3b444-f079-48cc-8728-3bd3b3de4b98" />
+        <classShapeMoniker Id="a517c331-b05b-4620-93d1-3ac896d75965" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8914be61-bfa5-4f62-a315-e3451a378a28" absoluteBounds="3.125, 16.75, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Dispensador" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62c9bc6e-0683-4e70-9c11-ac1bc38300ce" absoluteBounds="3.14, 17.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fb5497d-ee9c-4789-bf3d-aac793913234" absoluteBounds="0.5, 17.125, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Manguera" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f719de4-f004-48d3-a9f4-45657e27d082" absoluteBounds="0.51500000000000012, 17.585, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e60cd858-2708-4cd7-bb22-bb6865b6b107" absoluteBounds="11.625, 20.375, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ResumenDia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="02a69c9b-03c2-456a-9288-59730f145a61" absoluteBounds="11.64, 20.835, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e27822be-5ce2-4812-857a-9dab29d5e1d5" absoluteBounds="7.5, 21.375, 2, 2.9247054036458344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Turno" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80c0d5bc-38fa-442c-b59c-e4cb121b35c7" absoluteBounds="7.5150000000000006, 21.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2ada938-ac2c-4e10-af6a-88c6412dc5fb" absoluteBounds="0.5, 24.875, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoIsla" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fbc218b1-fad0-436f-8db1-7fca3a6f0b60" absoluteBounds="0.51499999999999968, 25.335, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="369c2127-3702-4ada-be43-9fc52c4f5d46" absoluteBounds="8.125, 24.5, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoManguera" />
+      <nestedChildShapes>
+        <elementListCompartment Id="540d103e-5811-4be6-86b0-51e4e4e298c4" absoluteBounds="8.14, 24.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa68b659-1af2-4b0d-98c6-10fc2232cc8a" absoluteBounds="3.75, 26.25, 2.625, 3.1170068359375023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoProducto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3bde2bb8-57c0-4d0f-b489-3d15af163f55" absoluteBounds="3.765, 26.71, 2.5949999999999998, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 27.8085034179687); (8.125 : 25.5860978942094)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoProducto/ArqueoProducto_ArqueoManguera" />
+      <nodes>
+        <classShapeMoniker Id="fa68b659-1af2-4b0d-98c6-10fc2232cc8a" />
+        <classShapeMoniker Id="369c2127-3702-4ada-be43-9fc52c4f5d46" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="971b7ff7-24ad-476d-8229-5ac42342f112" absoluteBounds="2.875, 20.625, 2, 4.6554182942708344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ExtracionPago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f05f09c7-0a47-478c-b9fd-1049236ac84f" absoluteBounds="2.89, 21.085, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a16eb130-af19-4dc6-967a-fc21007b50f1" absoluteBounds="5.25, 21.375, 2, 1.5785953776041701">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ExtracionConcepto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="214e0d9c-e36f-456a-8253-dd797d7bffb6" absoluteBounds="5.2650000000000006, 21.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 22.1642976888021); (5.25 : 22.1642976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ExtracionPago/ExtracionPago_ExtracionConcepto" />
+      <nodes>
+        <classShapeMoniker Id="971b7ff7-24ad-476d-8229-5ac42342f112" />
+        <classShapeMoniker Id="a16eb130-af19-4dc6-967a-fc21007b50f1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 27.8085034179688); (3.75 : 27.8085034179688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoIsla/ArqueoIsla_ArqueoProducto" />
+      <nodes>
+        <classShapeMoniker Id="d2ada938-ac2c-4e10-af6a-88c6412dc5fb" />
+        <classShapeMoniker Id="fa68b659-1af2-4b0d-98c6-10fc2232cc8a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="eeefd34e-fd5f-4125-bdc6-b1967f62c94f" absoluteBounds="5.25, 29.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoProductoExtracion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2294971f-a58f-47ed-8e61-f81f568a4d77" absoluteBounds="5.2650000000000006, 30.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.8125 : 29.3670068359375); (5.8125 : 29.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoProducto/ArqueoProducto_ArqueoProductoExtracion" />
+      <nodes>
+        <classShapeMoniker Id="fa68b659-1af2-4b0d-98c6-10fc2232cc8a" />
+        <classShapeMoniker Id="eeefd34e-fd5f-4125-bdc6-b1967f62c94f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="df8fc972-e64e-45b8-b777-55117318b062" absoluteBounds="8.125, 28.375, 2, 1.5785953776041701">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoProductoExtracionConcepto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dff928f4-8d37-4390-b796-903b0f5db113" absoluteBounds="8.14, 28.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 30.2580481888021); (9.90625 : 30.2580481888021); (9.90625 : 29.9535953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoProductoExtracion/ArqueoProductoExtracion_ArqueoProductoExtracionConcepto" />
+      <nodes>
+        <classShapeMoniker Id="eeefd34e-fd5f-4125-bdc6-b1967f62c94f" />
+        <classShapeMoniker Id="df8fc972-e64e-45b8-b777-55117318b062" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d0a32fb9-8fa7-408c-90dd-026c3f0ea96e" absoluteBounds="0.5, 30.25, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoFormaPago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1320a3d9-169e-47fa-993c-438739d16eab" absoluteBounds="0.51500000000000012, 30.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 29.7227197265625); (1.5 : 30.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoIsla/ArqueoIsla_ArqueoFormaPago" />
+      <nodes>
+        <classShapeMoniker Id="d2ada938-ac2c-4e10-af6a-88c6412dc5fb" />
+        <classShapeMoniker Id="d0a32fb9-8fa7-408c-90dd-026c3f0ea96e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f46039ae-4156-4709-860d-750c674ca820" absoluteBounds="3.25, 4, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Moneda" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff2a1fc9-a46c-4187-90a2-7bda190826bb" absoluteBounds="3.265, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f229165-5dc6-44b0-b6de-4a5ccb5872ad" absoluteBounds="3.25, 5.875, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Efectivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c919366-0933-4e3f-afd2-4289ecda3373" absoluteBounds="3.265, 6.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19cde807-646c-453c-89eb-3ea584061574" absoluteBounds="11, 24.5, 2, 2.73240397135417">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="027fe52a-1e18-4b22-acd9-d3dc87f63e16" absoluteBounds="11.015, 24.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4a7bea7-dab9-45ff-9b3c-ebb6711c3825" absoluteBounds="10.625, 28.375, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivoDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca0a9e26-c2d7-4906-a523-2853d1a4234c" absoluteBounds="10.64, 28.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.8125 : 27.2324039713542); (11.8125 : 28.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivo/ArqueoEfectivo_ArqueoEfectivoDetalle" />
+      <nodes>
+        <classShapeMoniker Id="19cde807-646c-453c-89eb-3ea584061574" />
+        <classShapeMoniker Id="c4a7bea7-dab9-45ff-9b3c-ebb6711c3825" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="50af7c94-0857-4a1c-9f41-5dfac993b6cc" absoluteBounds="6.125, 3.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Licencia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b3ad767-db62-4f6c-b5f7-7e3ea233d9a5" absoluteBounds="6.14, 4.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.625 : 22.7219555664063); (9.5 : 22.7219555664063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ResumenDia/ResumenDia_Turno" />
+      <nodes>
+        <classShapeMoniker Id="e60cd858-2708-4cd7-bb22-bb6865b6b107" />
+        <classShapeMoniker Id="e27822be-5ce2-4812-857a-9dab29d5e1d5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 24.2997054036458); (7.5 : 25.8915909488076); (2.5 : 25.8915909488076)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Turno/Turno_ArqueoIsla" />
+      <nodes>
+        <classShapeMoniker Id="e27822be-5ce2-4812-857a-9dab29d5e1d5" />
+        <classShapeMoniker Id="d2ada938-ac2c-4e10-af6a-88c6412dc5fb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="917cdab7-e2c3-48cc-a373-0f2efd150e3a" absoluteBounds="12.125, 7, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Upload" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a567a5ee-0531-4623-984b-bf2b773fb945" absoluteBounds="12.14, 7.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5133e745-f18f-454a-86bf-2d5bbf9fa402" absoluteBounds="6.125, 6.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/SubEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e6520d8-5cf7-497b-b436-0625818cf9ad" absoluteBounds="6.14, 7.3350000000000009, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="75ba51c9-4e86-407f-bd02-53e61b3c0c19" absoluteBounds="9.25, 9.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/UsuarioSubEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d81b08d1-f88f-464a-a0d7-147dcf2eacea" absoluteBounds="9.265, 9.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="597e5142-a189-4b70-8ce9-5452a44c44eb" absoluteBounds="8.875, 10.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Color" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41f7e3c0-df63-41a9-add2-6b659ca4a959" absoluteBounds="8.89, 10.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1746eebc-7a4d-4f7d-a75e-6687f426136e" absoluteBounds="1.125, 32.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoCuenta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="595498d4-77bb-405c-a72e-73875f168f25" absoluteBounds="1.1400000000000001, 33.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d039524f-68e5-4eb2-9aa2-bff93287084a" absoluteBounds="4, 32.25, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CuentaContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a212ea8-e45c-4f84-a63f-62b544914a24" absoluteBounds="4.0150000000000006, 32.71, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 34.2796541341146); (4 : 34.2796541341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/TipoCuenta/TipoCuenta_CuentaContable" />
+      <nodes>
+        <classShapeMoniker Id="1746eebc-7a4d-4f7d-a75e-6687f426136e" />
+        <classShapeMoniker Id="d039524f-68e5-4eb2-9aa2-bff93287084a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="11dbd6d2-c07a-4dc4-941b-c9dad6dd3feb" absoluteBounds="7.125, 33.125, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CuentaContableEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59f3dc9b-1f62-41d1-aa04-6eac0a68a92b" absoluteBounds="7.14, 33.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 33.8181469726563); (7.125 : 33.8181469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/CuentaContable/CuentaContable_CuentaContableEstacion" />
+      <nodes>
+        <classShapeMoniker Id="d039524f-68e5-4eb2-9aa2-bff93287084a" />
+        <classShapeMoniker Id="11dbd6d2-c07a-4dc4-941b-c9dad6dd3feb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="513e6459-0137-411d-959f-bb8fba6b83ab" absoluteBounds="0.5, 40.25, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Departamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3e5a4bc-ceb8-4bc7-b415-d1d0437b9e12" absoluteBounds="0.51500000000000012, 40.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f900d1f-90fb-40f2-9102-0432926c6627" absoluteBounds="3.625, 38.875, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoProveedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cf932fa-021a-4cac-93af-8a297178c1fc" absoluteBounds="3.64, 39.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e579a798-bff2-4b93-b8e9-24c859feaffe" absoluteBounds="6.375, 39, 2, 6.5784326171875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Proveedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa4ac05f-ecd1-4cd8-a166-9b2aa22aac22" absoluteBounds="6.39, 39.46, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2971415-8f33-49fd-80cb-0fa6462e07e1" absoluteBounds="7.125, 34.875, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TablaImpuesto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="726483a2-f458-4e2b-b8df-6fd177bfba19" absoluteBounds="7.14, 35.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0999a633-50d6-4af4-9b6b-a177b69a1fca" absoluteBounds="7.125, 37.125, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProveedorMasivoEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cc85698-6d15-4ecc-a106-a252a00c62f6" absoluteBounds="7.1400000000000006, 37.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.75 : 39); (7.75 : 38.5112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Proveedor/Proveedor_ProveedorMasivoEstacion" />
+      <nodes>
+        <classShapeMoniker Id="e579a798-bff2-4b93-b8e9-24c859feaffe" />
+        <classShapeMoniker Id="0999a633-50d6-4af4-9b6b-a177b69a1fca" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="eedbcd78-fc93-488e-9378-0ffa907f951c" absoluteBounds="3.375, 41.25, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProveedorAlcaldiaEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="809d8d58-50b3-4796-b58d-cc1b86ac1ca0" absoluteBounds="3.3900000000000006, 41.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 41.9431469726563); (5.375 : 41.9431469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Proveedor/Proveedor_ProveedorAlcaldiaEstacion" />
+      <nodes>
+        <classShapeMoniker Id="e579a798-bff2-4b93-b8e9-24c859feaffe" />
+        <classShapeMoniker Id="eedbcd78-fc93-488e-9378-0ffa907f951c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6932d1a6-095b-4e05-a6cf-1fdb45416c5b" absoluteBounds="3.125, 11.875, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Producto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e45e082d-d097-4cea-95a3-726791301ccf" absoluteBounds="3.14, 12.335, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="974ff5d7-6119-4998-a332-8619a99593df" absoluteBounds="12, 8.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoCambio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea3bc1ba-a482-4662-8dbb-29affd4b913f" absoluteBounds="12.015, 9.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0fa7a1e5-0df7-4444-ab34-36286dbe2b00" absoluteBounds="4.125, 37.25, 2, 1.193992513020838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProveedorClase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7bc4d6d1-6a68-4d3c-85c2-fa9a48048c3f" absoluteBounds="4.1400000000000006, 37.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d707552-0d4f-4929-a116-d9b849f8e1a8" absoluteBounds="17, 32.75, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TanqueProducto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="331f2abd-4eab-4b7a-8c9f-d6f8d2f9ac0d" absoluteBounds="17.015, 33.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abb0bf12-a077-4d29-aaab-9b6b4431760d" absoluteBounds="10.375, 31.5, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CentroCosto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1dd46a53-e7c4-4cd1-a5df-b0eecef0cb2e" absoluteBounds="10.39, 31.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb64156d-3fa6-4a1d-9565-eee2d4b77d1d" absoluteBounds="13.5, 31.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CentroCostoPorEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb17fee6-fef9-4108-a756-4b0b1860e6d7" absoluteBounds="13.515, 32.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.375 : 32.4431469726563); (13.5 : 32.4431469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/CentroCosto/CentroCosto_CentroCostoPorEstacion" />
+      <nodes>
+        <classShapeMoniker Id="abb0bf12-a077-4d29-aaab-9b6b4431760d" />
+        <classShapeMoniker Id="eb64156d-3fa6-4a1d-9565-eee2d4b77d1d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="00d901ef-43ff-45ae-b592-a6d899311a8c" absoluteBounds="2.875, 30.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PeriodoContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cd12327-f15d-4b52-82c9-252b6313f1b4" absoluteBounds="2.8899999999999997, 30.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69cff18b-1b16-4fe8-a2ef-1ec1bebcf917" absoluteBounds="9.625, 37, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/MovimientoTipo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb8a99de-e47d-413f-8c95-99438b7d962f" absoluteBounds="9.64, 37.46, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5fd40f95-b8c7-4e94-9386-d11420dae63d" absoluteBounds="21.25, 37.25, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/OrdenCompra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a82493be-7ad2-4dc8-ab9a-825c034eec63" absoluteBounds="21.265, 37.71, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f959952-3385-4b4b-bb4d-5d46169ee2b7" absoluteBounds="24.375, 40.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/OrdenCompraDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3534798a-44a1-4b22-a2ef-0758a78db1a7" absoluteBounds="24.39, 40.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(23.25 : 41.1738598632813); (24.375 : 41.1738598632813)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/OrdenCompra/OrdenCompra_OrdenCompraDetalle" />
+      <nodes>
+        <classShapeMoniker Id="5fd40f95-b8c7-4e94-9386-d11420dae63d" />
+        <classShapeMoniker Id="8f959952-3385-4b4b-bb4d-5d46169ee2b7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c13c9ef7-6693-4e63-8092-5e4746393711" absoluteBounds="17.5, 39.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ComprobanteContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="329718a7-ac2e-4edb-9cef-bdc5454d74d6" absoluteBounds="17.515, 40.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7c49737-28b1-444c-8c62-948a57edfe32" absoluteBounds="11, 42.5, 2, 6.0015283203125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Kardex" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54938924-7c02-44d8-80af-1ffab3314cda" absoluteBounds="11.015, 42.96, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="167b6ccc-27c2-40be-b17a-2a01ebefde18" absoluteBounds="15.625, 35.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Almacen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="371b3c21-471a-426d-9b1c-90d0f39c4870" absoluteBounds="15.64, 35.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3068d728-9651-47db-943b-999e961807fc" absoluteBounds="0.5, 9.375, 2, 3.6939111328125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Area" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94348495-bd72-4b36-b2dc-49aec4ea72d2" absoluteBounds="0.51500000000000012, 9.835, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f24b793-ca32-4f82-970b-795a41df521e" absoluteBounds="0.5, 13.125, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AreaVenta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e2571b9-bf00-4450-afe2-ca6723573778" absoluteBounds="0.51500000000000057, 13.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad3bc3d9-dde1-475d-88b0-3760e4611ba3" absoluteBounds="8.25, 19.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoTipoCambio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="542411f4-793a-45d9-a377-5a5d6fdd3511" absoluteBounds="8.265, 20.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="308964de-de1b-4b56-b543-d261624813c7" absoluteBounds="13, 37.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Retencione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5651e382-8d7a-4d1a-9ea7-2e1eaabfb109" absoluteBounds="13.015, 38.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9896a62f-df89-405c-bc85-47fd1d853c76" absoluteBounds="18.625, 37.25, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AlmacenProducto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25c36a65-86a4-4555-a2bf-789ba638bc1f" absoluteBounds="18.64, 37.71, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61cdf681-8970-4975-9af5-e55542a2e8fa" absoluteBounds="20.875, 43.875, 2, 3.501609700520838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioFisico" />
+      <nestedChildShapes>
+        <elementListCompartment Id="acba2ce3-2b32-4e86-a304-9adc97cd38db" absoluteBounds="20.89, 44.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85d0eaab-6b9d-4f1c-8e27-e4066337daf9" absoluteBounds="23.625, 44.25, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioFisicoDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5aee5264-0616-402f-96e3-9f1b84b80e6b" absoluteBounds="23.64, 44.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(22.875 : 45.1354484049479); (23.625 : 45.1354484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/InventarioFisico/InventarioFisico_InventarioFisicoDetalle" />
+      <nodes>
+        <classShapeMoniker Id="61cdf681-8970-4975-9af5-e55542a2e8fa" />
+        <classShapeMoniker Id="85d0eaab-6b9d-4f1c-8e27-e4066337daf9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="afbf62df-1665-4315-8506-f5f6e0244f3d" absoluteBounds="7.875, 46, 2, 6.5784326171875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbcda55b-e3ce-438c-823f-ed5770bc86e8" absoluteBounds="7.89, 46.46, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2738e830-5bfe-4099-aa30-6e4c78a3dd46" absoluteBounds="10.5, 48.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ClienteEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cec88613-a893-493b-b4c8-7e16bd745c11" absoluteBounds="10.515, 49.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.875 : 49.4431469726563); (10.5 : 49.4431469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Cliente/Cliente_ClienteEstacion" />
+      <nodes>
+        <classShapeMoniker Id="afbf62df-1665-4315-8506-f5f6e0244f3d" />
+        <classShapeMoniker Id="2738e830-5bfe-4099-aa30-6e4c78a3dd46" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="40ee7268-70c1-4b72-82b5-67c70a3db02f" absoluteBounds="15.375, 37.625, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AjusteDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="887f9469-2778-45aa-a23d-1dd6d7547ffb" absoluteBounds="15.39, 38.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb43d9ca-3a44-4561-b5ef-389d1c8f794b" absoluteBounds="10, 33.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ConceptoContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65593015-48eb-4bbc-afee-3ba310e4b7c2" absoluteBounds="10.015, 34.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7283bd6e-f21e-4403-89f0-10dc1d1324e6" absoluteBounds="0.875, 43.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Deudor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f8dc681-4eba-4514-9345-e51f627c25b6" absoluteBounds="0.89000000000000012, 43.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b77b345-e45e-41b7-b12e-7a1cf50bc0f2" absoluteBounds="5.125, 46, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ab6a8dc-cdc4-480d-ba7e-f6696e998cd0" absoluteBounds="5.1400000000000006, 46.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7109034f-bebc-49cc-909f-38bdc584bf45" absoluteBounds="7.625, 30.625, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoPago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="970d1f60-4823-4219-9f88-75b234149e95" absoluteBounds="7.64, 31.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="273ebc8b-cd83-4f61-919c-9d370ec2bbaa" absoluteBounds="1, 46.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Banco" />
+      <nestedChildShapes>
+        <elementListCompartment Id="136087db-9b77-4250-b5f8-a9fa39b80c98" absoluteBounds="1.0150000000000001, 47.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1efdec5-5eac-4d9d-b23f-aa5e7291da45" absoluteBounds="4.875, 50.125, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Remesa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4339b20-c404-4d64-bf8f-7a01c3e4996b" absoluteBounds="4.89, 50.585, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1e4de986-2e3f-4945-946c-e014fd47fdd5" absoluteBounds="18.375, 48.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioCombustible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3956d707-cdf0-40a0-8057-61e858c442bd" absoluteBounds="18.39, 49.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f3708dc-e7c4-4099-8f7c-a9f51ee2c5b1" absoluteBounds="21, 49, 2.125, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioCombustibleValore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d017c779-c052-461d-bf9e-dfe1a6205619" absoluteBounds="21.015, 49.46, 2.0949999999999998, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(20.375 : 49.9815991210938); (21 : 49.9815991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/InventarioCombustible/InventarioCombustible_InventarioCombustibleValore" />
+      <nodes>
+        <classShapeMoniker Id="1e4de986-2e3f-4945-946c-e014fd47fdd5" />
+        <classShapeMoniker Id="4f3708dc-e7c4-4099-8f7c-a9f51ee2c5b1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cd771a2f-625e-444f-a948-e54b48a543ff" absoluteBounds="21, 52.125, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioCombustibleDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3659720-0d29-4528-991b-d638288a6fbe" absoluteBounds="21.015, 52.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(20.21875 : 51.6074039713542); (20.21875 : 52.21875); (21 : 52.21875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/InventarioCombustible/InventarioCombustible_InventarioCombustibleDetalle" />
+      <nodes>
+        <classShapeMoniker Id="1e4de986-2e3f-4945-946c-e014fd47fdd5" />
+        <classShapeMoniker Id="cd771a2f-625e-444f-a948-e54b48a543ff" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4e1d0760-8d5e-40c5-8231-3dd2f364b38c" absoluteBounds="16.75, 43.5, 2, 5.0400211588541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ActaCombustible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fc02186-1303-453e-914a-43e7f81c4067" absoluteBounds="16.765, 43.96, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e82bc1d-e0db-493e-a77f-ce1711a7b799" absoluteBounds="10, 39.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/MovimientoPago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c990b9a5-b0d9-4770-a72b-fc3b17a16cb7" absoluteBounds="10.015, 40.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="665de89a-9913-44a8-9714-489ae8e2a63c" absoluteBounds="3.625, 43.5, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Pago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df30fca6-665c-4c2e-a3d5-3277bb604c82" absoluteBounds="3.64, 43.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 44.3854484049479); (3.625 : 44.3854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Deudor/Deudor_Pago" />
+      <nodes>
+        <classShapeMoniker Id="7283bd6e-f21e-4403-89f0-10dc1d1324e6" />
+        <classShapeMoniker Id="665de89a-9913-44a8-9714-489ae8e2a63c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b60649cf-9f22-48ca-b8ee-68b58f503618" absoluteBounds="9.875, 56.375, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TemporalComprobanteContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21704ad5-5be8-4ffb-99f7-8b0ccb28c461" absoluteBounds="9.89, 56.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b17cfd3a-50e2-4c8d-a5b8-a195c40ae649" absoluteBounds="15.875, 56.375, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TemporalKardex" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81b1eb22-36dd-4dd6-9840-e9a58dcbf0ba" absoluteBounds="15.89, 56.835, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="957cf90c-1f89-4013-904f-21ecddffa652" absoluteBounds="12.875, 56.75, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TemporalMovimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b739a114-bc0d-41e2-9c83-1cb2adbcfeb6" absoluteBounds="12.89, 57.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.875 : 58.1210034179688); (11.875 : 58.1210034179688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/TemporalMovimiento/TemporalMovimiento_TemporalComprobanteContable" />
+      <nodes>
+        <classShapeMoniker Id="957cf90c-1f89-4013-904f-21ecddffa652" />
+        <classShapeMoniker Id="b60649cf-9f22-48ca-b8ee-68b58f503618" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.875 : 58.6979077148438); (15.875 : 58.6979077148438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/TemporalMovimiento/TemporalMovimiento_TemporalKardex" />
+      <nodes>
+        <classShapeMoniker Id="957cf90c-1f89-4013-904f-21ecddffa652" />
+        <classShapeMoniker Id="b17cfd3a-50e2-4c8d-a5b8-a195c40ae649" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c5db6471-4726-4f6d-b8b8-7d4dc188da28" absoluteBounds="18, 35.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AjusteConcepto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="322a9667-69f6-4c4f-9771-7211e045d2be" absoluteBounds="18.015, 35.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed229275-e315-4aa9-88d5-13ef7d107fa8" absoluteBounds="10.875, 51.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AlmacenPrestamo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88da5cff-44fa-4d7c-b270-2145bffac431" absoluteBounds="10.89, 52.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e00adb99-77d7-4d00-9626-2d748e4681b3" absoluteBounds="14.875, 20.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioResumenDia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c2f87e9-b9f4-448d-8e41-91ab3b703e67" absoluteBounds="14.89, 21.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.625 : 21.5104484049479); (14.875 : 21.5104484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ResumenDia/ResumenDia_InventarioResumenDia" />
+      <nodes>
+        <classShapeMoniker Id="e60cd858-2708-4cd7-bb22-bb6865b6b107" />
+        <classShapeMoniker Id="e00adb99-77d7-4d00-9626-2d748e4681b3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="157bc77b-52e0-4244-8211-b371b9fe0e68" absoluteBounds="24.5, 47.375, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioUpload" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc8ffb0f-6faf-4eeb-934c-7392bd915d8b" absoluteBounds="24.515, 47.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a9e3b7f-9434-4515-8c8c-5e0b7f6ef634" absoluteBounds="27.5, 51, 2, 2.924705403645838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioUploadDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e5d7c94-3eea-4c14-8215-9590339d96fb" absoluteBounds="27.515, 51.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(26.5 : 49.7973046875); (27.90625 : 49.7973046875); (27.90625 : 51)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/InventarioUpload/InventarioUpload_InventarioUploadDetalle" />
+      <nodes>
+        <classShapeMoniker Id="157bc77b-52e0-4244-8211-b371b9fe0e68" />
+        <classShapeMoniker Id="4a9e3b7f-9434-4515-8c8c-5e0b7f6ef634" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2e964fb6-bdb0-4b8f-90ad-c72230f71991" absoluteBounds="13.25, 34.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Series" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a728847c-45ae-42f9-a81b-1304072c2ac1" absoluteBounds="13.265, 35.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f56e9738-bc9f-4758-a65f-41e41c974694" absoluteBounds="26.875, 42.5, 2, 3.501609700520838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PlantillaCarga" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67489750-8207-4701-ad4e-2bb1e536e2d4" absoluteBounds="26.89, 42.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f56b55e-624e-477d-b837-ac63b06957a4" absoluteBounds="28.375, 46.5, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PlantillaCargaCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14912a19-e631-4e44-80b1-2bbde8b266d4" absoluteBounds="28.39, 46.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(28.625 : 46.0016097005208); (28.625 : 46.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PlantillaCarga/PlantillaCarga_PlantillaCargaCliente" />
+      <nodes>
+        <classShapeMoniker Id="f56e9738-bc9f-4758-a65f-41e41c974694" />
+        <classShapeMoniker Id="9f56b55e-624e-477d-b837-ac63b06957a4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fb5404e6-6986-4059-a9d6-f66eeffc3c74" absoluteBounds="6.125, 11.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ServicioPrecio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="86adcd23-ddb5-48e2-91f8-127ef051e144" absoluteBounds="6.14, 11.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" absoluteBounds="13.75, 40.875, 2, 11.578269856770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Movimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7475fc0d-7179-4e4e-9145-8aeb69f11a97" absoluteBounds="13.765, 41.335, 1.9700000000000002, 11.018269856770832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15.75 : 41.9671541341146); (17.5 : 41.9671541341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_ComprobanteContable" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="c13c9ef7-6693-4e63-8092-5e4746393711" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.375 : 40.875); (14.375 : 40.3574039713542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_Retencione" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="308964de-de1b-4b56-b543-d261624813c7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 41.6162019856771); (12 : 41.6162019856771)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_MovimientoPago" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="3e82bc1d-e0db-493e-a77f-ce1711a7b799" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 45.5007641601563); (13 : 45.5007641601563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_Kardex" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="e7c49737-28b1-444c-8c62-948a57edfe32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 52.0391349283854); (12.875 : 52.0391349283854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_AlmacenPrestamo" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="ed229275-e315-4aa9-88d5-13ef7d107fa8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.75 : 46.0200105794271); (16.1666691666667 : 46.0200105794271 : JumpStart); (16.3333358333333 : 46.0200105794271 : JumpEnd); (16.75 : 46.0200105794271)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_ActaCombustible" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="4e1d0760-8d5e-40c5-8231-3dd2f364b38c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.75 : 50.5278955078125); (16.2500025 : 50.5278955078125); (16.2500025 : 39.3958968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_AjusteDetalle" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="40ee7268-70c1-4b72-82b5-67c70a3db02f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c8b236e7-54d2-4445-8163-502c830d329b" absoluteBounds="30.125, 42.875, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PlantillaCargaProveedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db2d90b7-36be-4c7b-a817-aff2edc6f432" absoluteBounds="30.14, 43.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(28.875 : 44.0489005533854); (30.125 : 44.0489005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PlantillaCarga/PlantillaCarga_PlantillaCargaProveedor" />
+      <nodes>
+        <classShapeMoniker Id="f56e9738-bc9f-4758-a65f-41e41c974694" />
+        <classShapeMoniker Id="c8b236e7-54d2-4445-8163-502c830d329b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(28.9375 : 49.0401025390625); (28.9375 : 51)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PlantillaCargaCliente/PlantillaCargaCliente_InventarioUploadDetalle" />
+      <nodes>
+        <classShapeMoniker Id="9f56b55e-624e-477d-b837-ac63b06957a4" />
+        <classShapeMoniker Id="4a9e3b7f-9434-4515-8c8c-5e0b7f6ef634" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4109d6ea-e599-4c7c-905f-7ba506ca8414" absoluteBounds="18, 52.375, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/NotaCreditoCupones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="60c7b6f9-9ab4-43f7-86b1-dc941a52915f" absoluteBounds="18.015, 52.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15.59375 : 52.4532698567708); (15.59375 : 52.8828854283854); (18 : 52.8828854283854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_NotaCreditoCupones" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="4109d6ea-e599-4c7c-905f-7ba506ca8414" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8eff326a-3cb7-4115-8ad2-03966f3def19" absoluteBounds="13.375, 53.375, 2, 1.770896809895838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/MinutasDeposito" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dba7a1fa-3628-41cd-9827-bee2089a4a8e" absoluteBounds="13.39, 53.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.5625 : 52.4532698567708); (14.5625 : 53.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Movimiento/Movimiento_MinutasDeposito" />
+      <nodes>
+        <classShapeMoniker Id="30efca59-1689-40dc-8f6a-1fbd23dfb55a" />
+        <classShapeMoniker Id="8eff326a-3cb7-4115-8ad2-03966f3def19" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9a185bb7-386d-4f37-bae2-036828f9438f" absoluteBounds="20.875, 55.125, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Activo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe6939db-a438-4279-bec0-bb620f05e00f" absoluteBounds="20.89, 55.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a6cbb91-f15d-42b9-86fd-07f3c238a031" absoluteBounds="19.125, 58.125, 2.75, 2.924705403645838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoActivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51c06616-fc06-4d40-be2f-250559122e1b" absoluteBounds="19.14, 58.585, 2.7199999999999998, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a351d3c2-2de9-4136-8a5a-ba5fb0309362" absoluteBounds="18.375, 55.25, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoMovimientoActivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="720d1e1c-866d-4b01-97b8-d4557c755545" absoluteBounds="18.39, 55.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b84ba58c-f34c-429d-a7a9-8e15169d591f" absoluteBounds="0.625, 53.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/SetRecalculo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfea977f-98ba-4dde-ab08-e98fe5047e6e" absoluteBounds="0.64000000000000012, 53.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e45461b-8a4f-42f9-8ad7-b805c5e44726" absoluteBounds="0.5, 38.5, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoCuentaModulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c21fbc54-25a5-433c-b5c6-ce71a69597e2" absoluteBounds="0.51500000000000012, 38.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13546fcc-5d41-4f0d-b96b-7083319eab96" absoluteBounds="0.5, 62.5, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AreaNomina" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf84efb1-0a08-4361-b413-a7dfcf18057d" absoluteBounds="0.51499999999999968, 62.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc4d6303-5ead-4777-b70d-0eb663a84ea2" absoluteBounds="3.375, 64.75, 2, 1.9631982421874881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Cargo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5755e253-fb37-4b97-8bfa-e41d3c6890e3" absoluteBounds="3.3900000000000006, 65.210000000000008, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fcccd6a-17f1-4703-9499-2333719ff343" absoluteBounds="0.5, 64.5, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProfesionOficio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="679cc6a0-f96f-4794-8355-1595501c0419" absoluteBounds="0.51500000000000057, 64.960000000000008, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f84fddc8-8326-4a2e-a19f-b77042a3a34a" absoluteBounds="0.75, 56.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/EstructuraOrganizativa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be600d26-5e2b-4bd1-9e44-92cdc503f3e2" absoluteBounds="0.76500000000000012, 57.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="101c6882-19d7-4c51-a8d1-8109573994e7" absoluteBounds="0.75, 59, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Planilla" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db88a723-da10-4572-961b-6476eaad2b95" absoluteBounds="0.76500000000000012, 59.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="faf05b1d-c491-4713-8147-790948455aeb" absoluteBounds="6.25, 64.5, 2, 2.9247054036458167">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoMovimientoEmpleado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc059048-52c8-449a-a552-6d09d4d1ccb2" absoluteBounds="6.265, 64.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e687e4c6-e19d-4f14-9cbd-44ee3fe2c639" absoluteBounds="7.625, 59.875, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/VistaTanqueLitro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e505f0c-96c9-47c2-a88d-ffd042b1d479" absoluteBounds="7.6400000000000006, 60.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc7e3cbb-ae94-4625-b4c3-00b54c53fdc4" absoluteBounds="23.75, 56.125, 2, 6.5784326171875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Bien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5981dca-6bc1-452c-af53-9ae5628cf086" absoluteBounds="23.765, 56.585, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ba4c975b-3768-4de1-ba77-213fd0779f83" absoluteBounds="0.5, 66.75, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoAusencia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cbabbc9c-8068-4682-bccc-c8e708ca9e1a" absoluteBounds="0.51500000000000012, 67.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a0a623a-d104-4dcb-9471-bfc90855c552" absoluteBounds="0.875, 36.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoCuentaGrupo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41c9fe50-2662-4759-9534-89343565a367" absoluteBounds="0.89000000000000012, 36.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85b58764-3a7d-4252-8f34-1c25f1601687" absoluteBounds="3.375, 8, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/EstacionAreaPermisible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed0de626-b4c8-477c-a2ff-12587a8d3687" absoluteBounds="3.39, 8.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b2f57e6-31da-4c7f-861e-7d444fecbb16" absoluteBounds="3.75, 55.125, 2, 9.07835123697916">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Empleado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc6ab445-eb81-48f7-99f5-8a29e2646d9c" absoluteBounds="3.765, 55.585, 1.9700000000000002, 8.5183512369791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aba6a5d3-6888-443a-9ad7-02c1640ee40e" absoluteBounds="0.5, 68.875, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/EstadoCivil" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8c2d9ef-3e4c-47e8-a535-1fd0d245fad8" absoluteBounds="0.51499999999999968, 69.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5836e123-bc28-4642-8139-416eaeb16a92" absoluteBounds="7.375, 67.75, 2, 1.9631982421874881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/MovimientoHorasExtras" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bad8114b-a6d3-4a9c-b172-a3d17477eede" absoluteBounds="7.39, 68.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4b099b2-d3dc-417b-a001-48a2bd432cf5" absoluteBounds="7.375, 70.25, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoTraslado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87efb839-acc5-4736-93f6-8f69329d7e53" absoluteBounds="7.39, 70.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90a864f0-93ee-4e7c-9b11-4093513fb4d5" absoluteBounds="7.5, 72.625, 2, 4.0785139973958167">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TrasladoEmpleado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5461085-830e-4058-bf67-c3822969704e" absoluteBounds="7.515, 73.085, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5174e298-e3a3-49e6-9ae8-470f67481c26" absoluteBounds="3.5, 67, 2, 5.4246240234374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/MovimientoEmpleado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b8097b4-bbe5-4073-8c9d-1d5648ec8162" absoluteBounds="3.515, 67.46, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f5de0f6-0aaa-4307-a31f-b25f5e87f302" absoluteBounds="0.75, 70.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PlanillaGenerada" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d86d9b0-8ba3-49e3-af41-61325ae56b6b" absoluteBounds="0.76500000000000012, 71.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1cbd8b8-e728-4498-ac26-23d541414642" absoluteBounds="0.75, 73.625, 2, 4.2708154296874881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/DetallePlanillaGenerada" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79f0ea9f-d6f6-44b7-9d13-c631ba4fc76f" absoluteBounds="0.76500000000000012, 74.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 73.0304996744792); (1.75 : 73.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PlanillaGenerada/PlanillaGenerada_DetallePlanillaGenerada" />
+      <nodes>
+        <classShapeMoniker Id="7f5de0f6-0aaa-4307-a31f-b25f5e87f302" />
+        <classShapeMoniker Id="b1cbd8b8-e728-4498-ac26-23d541414642" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e1a3e78b-2bb3-4b3a-87c3-cb566104a416" absoluteBounds="3, 76.125, 2.25, 2.1554996744791595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/DetalleMovimientoPlanilla" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a567acb-baf9-42d0-bf8c-3f82de28358f" absoluteBounds="3.0150000000000006, 76.585, 2.2199999999999998, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 77.0104077148438); (3 : 77.0104077148438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/DetallePlanillaGenerada/DetallePlanillaGenerada_DetalleMovimientoPlanilla" />
+      <nodes>
+        <classShapeMoniker Id="b1cbd8b8-e728-4498-ac26-23d541414642" />
+        <classShapeMoniker Id="e1a3e78b-2bb3-4b3a-87c3-cb566104a416" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="19ac1341-6691-407b-a854-84849b865c0e" absoluteBounds="0.75, 78.375, 2.5, 5.4246240234374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/IRRetenido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83ce925d-b47d-43b6-8f6b-f0cfc86afcf4" absoluteBounds="0.765, 78.835, 2.4699999999999998, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30269887-e4c7-4e88-8bd8-a7bf23b28cb4" absoluteBounds="4.75, 78.75, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TablaIR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66434359-b1b3-40ac-87fa-531a93a63438" absoluteBounds="4.765, 79.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f13d250d-2614-466a-9e36-65e8f63ba88e" absoluteBounds="12.25, 10.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/GrupoRetencionAlcaldia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3720e2c-04e8-4159-bf87-59351525144b" absoluteBounds="12.265, 11.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="709e96cd-1df5-4817-a5c0-f0b461850903" absoluteBounds="4.5, 81.75, 2, 10.039858398437488">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Liquidacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="53125eaa-4492-4ce1-9361-6170b7b91a3d" absoluteBounds="4.515, 82.21, 1.9700000000000002, 9.4798583984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a43ef914-0fc2-4830-bfb2-80351675b395" absoluteBounds="7.625, 82.625, 2, 1.1939925130208167">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TipoBaja" />
+      <nestedChildShapes>
+        <elementListCompartment Id="524fb925-c8dd-45eb-a168-7c03d4c72681" absoluteBounds="7.64, 83.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="237c1481-7063-424f-bd17-318287d645d8" absoluteBounds="7.25, 53.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/InventarioCierre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26c6fb6b-e798-42b7-9dcc-33633bcb86d1" absoluteBounds="7.265, 53.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce7c434e-5ceb-4197-96a4-cae450acf6e2" absoluteBounds="17.875, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ReportesEstructura" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de8cb2f8-5aee-4db3-a9c7-e37a112c67aa" absoluteBounds="17.89, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5d31c9d-6950-4fb4-a2de-d786bdc707a9" absoluteBounds="1.25, 85.75, 2, 3.1170068359374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/VistaGetInventarioCorte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1bcad81-a229-4cdc-990a-471eeafbc3da" absoluteBounds="1.265, 86.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b60fea2-23cf-41a0-8bff-b879327fa6c0" absoluteBounds="16.375, 63.75, 2, 3.1170068359374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/DetallePagoVacaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1339cc4c-c75a-442c-9066-5c6a56c94214" absoluteBounds="16.39, 64.210000000000008, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="24095bc0-14bb-47ed-869b-f902d14f3196" absoluteBounds="1.125, 90.125, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PagoAguinaldo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aeb6a29e-a64a-4cd9-8e7c-0392c3500071" absoluteBounds="1.1400000000000001, 90.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93e0083d-e946-489e-8087-e0728c0a51b2" absoluteBounds="3.875, 93, 2, 2.7324039713541595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/DetallePagoAguinaldo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9caba83b-7e34-411b-876a-22ca465bd26f" absoluteBounds="3.89, 93.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63d31cd2-ddf2-4c00-8876-03b1041c9dfa" absoluteBounds="1.5, 93.125, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AdelantoAguinaldo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1454cf84-7521-4bd8-b4e2-d21f049aad59" absoluteBounds="1.5150000000000001, 93.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4dca868e-fa87-455e-b971-6d70631c924c" absoluteBounds="26.75, 56.875, 2, 2.347801106770838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Depreciacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1e747f1-f4fe-4462-a662-3ea80fd366c2" absoluteBounds="26.765, 57.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b97f6e78-d897-41ed-a612-67dc10e3938f" absoluteBounds="1.5, 95.875, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/SalarioAcumuladoAdmonP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e51da861-2d68-42e2-9732-2c929f5ed28a" absoluteBounds="1.5150000000000001, 96.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5314e131-58f5-44b3-bd5d-e073ff2e6255" absoluteBounds="5, 1.375, 2, 5.4246240234375">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/VacacionesPagadas" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f277a3f4-fc4e-4475-8baf-73d0987f494a" absoluteBounds="5.015, 1.835, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ed0e5f7-a421-4fb8-bd9a-1a39ff71df58" absoluteBounds="1.75, 0.875, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/DiasVacaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b3a97fe-93b0-4c90-b686-eca46a7401f5" absoluteBounds="1.7650000000000001, 1.335, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ff02834-8db4-4b0e-9312-39fa5340651e" absoluteBounds="8.625, 43.375, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProveedorUsadoPorEstacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a2c3fbf-98f8-4761-b63b-76aa4e57b1de" absoluteBounds="8.64, 43.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82c4f53c-f685-4f4d-b92d-769d18dff167" absoluteBounds="27, 60.25, 2, 2.924705403645838">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/TrasladoBien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea39449f-0df4-428a-bfcf-3734ebec2301" absoluteBounds="27.015, 60.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dccf6f60-8df5-4348-ab60-0aba707c9a96" absoluteBounds="1.125, 49, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CuentaBancaria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d227cec-4c50-42ba-97de-bef5dfbe8714" absoluteBounds="1.1400000000000001, 49.46, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="714b1c40-b4a4-4cab-9308-a26ffb8b8ff5" absoluteBounds="15.375, 0.875, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Reporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff14755d-db16-4b4f-90d4-9c6f54d4e489" absoluteBounds="15.39, 1.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1bbf1049-9085-4701-b5c6-f4a93643aad3" absoluteBounds="9.25, 7.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/GetViewReportesSSRSByUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="201e5228-52d6-4758-aa69-806f7b23d3e9" absoluteBounds="9.265, 8.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5c92b716-2343-4399-9314-2ef809ab1195" absoluteBounds="15.5, 3.875, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ReportesSSR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdc0b83e-3dfa-46ba-ae55-0805bec76154" absoluteBounds="15.515, 4.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="80f0a735-33be-41ec-8699-2badbeaa3fef" absoluteBounds="14.875, 6.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AccesosReporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14c6ceee-86fc-435d-9520-69396998f3af" absoluteBounds="14.89, 7.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27b930b2-5cfc-43c4-a589-e0d7b8308c3b" absoluteBounds="7.75, 1.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/UltimaFechaVacacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67de5893-c4a9-42c1-8cbc-1907c47ced72" absoluteBounds="7.7650000000000006, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d5c7ef13-368f-4d5d-9f3f-1a616103d192" absoluteBounds="4.625, 97.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/FormatosCheque" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f17e9b05-7579-43d2-b6bf-c452aec4a3dc" absoluteBounds="4.64, 97.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc836257-ecea-455e-88fb-084d070b8f43" absoluteBounds="1.5, 98.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/AbonoCuota" />
+      <nestedChildShapes>
+        <elementListCompartment Id="664e5f5c-3929-4af1-881c-4750e6ae63f0" absoluteBounds="1.5150000000000001, 98.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94d39f38-69e0-4ed9-8243-00ee77e021fc" absoluteBounds="4.625, 99.75, 2, 2.3478011067708167">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/SeriesRetencione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5be5aaae-a55e-472e-9014-3a623d2283c3" absoluteBounds="4.64, 100.21, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d58517ca-90c8-4d9a-b3e0-6f2ea7c20e29" absoluteBounds="7.625, 85, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ProductoVariacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d7573ce-b010-47db-a087-69d68ef6fcdb" absoluteBounds="7.64, 85.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b3a4076-dcfb-47c1-82d3-0448b720aee1" absoluteBounds="1.625, 101.25, 2, 2.3478011067708167">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ConceptoCajaOperativa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a0d48c67-5555-4da5-bfab-7b9ef3c44fa0" absoluteBounds="1.6399999999999997, 101.71, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e795b5c9-7806-48b3-a301-ad3ef009b132" absoluteBounds="13.875, 24.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivoRetiro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="451acbc3-14e9-493d-bc4f-bf5b45815784" absoluteBounds="13.89, 25.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8883c64-81d2-4f47-a58e-889f088c2314" absoluteBounds="13.75, 28.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivoRetiroDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a010c1bc-9d4d-4663-b6bc-d2c6a0ce9d56" absoluteBounds="13.765, 28.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.8125 : 26.6458968098958); (14.8125 : 28.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/ArqueoEfectivoRetiro/ArqueoEfectivoRetiro_ArqueoEfectivoRetiroDetalle" />
+      <nodes>
+        <classShapeMoniker Id="e795b5c9-7806-48b3-a301-ad3ef009b132" />
+        <classShapeMoniker Id="e8883c64-81d2-4f47-a58e-889f088c2314" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9ac8bf4f-3c9c-42a5-8a55-ca3294e4aa6f" absoluteBounds="9.875, 98.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CostoCombustible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="941206d6-fc69-4cad-a2ac-b3087ee2fa0a" absoluteBounds="9.89, 99.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e087d3b0-c9a5-4cd8-be94-384a52e21548" absoluteBounds="9.875, 101.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/CostoCombustibleDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4536827f-4fb7-4dbf-8431-2b2020fab3f9" absoluteBounds="9.89, 101.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.875 : 100.588198242188); (10.875 : 101.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/CostoCombustible/CostoCombustible_CostoCombustibleDetalle" />
+      <nodes>
+        <classShapeMoniker Id="9ac8bf4f-3c9c-42a5-8a55-ca3294e4aa6f" />
+        <classShapeMoniker Id="e087d3b0-c9a5-4cd8-be94-384a52e21548" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5982c4e7-7d95-4f36-acec-d5a55945adbe" absoluteBounds="7.625, 98.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/OrdenCombustiblePedido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4191bec6-4aec-42c7-ab17-20d36e0a5656" absoluteBounds="7.6400000000000006, 99.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eef21eb6-2f6d-4895-852d-3529d5562001" absoluteBounds="1.75, 104.125, 2, 3.1170068359374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Pedido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="299b6377-3643-4cb9-af91-a77edfb12371" absoluteBounds="1.7649999999999997, 104.585, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b34361d5-d696-411d-a688-f01a28220c94" absoluteBounds="4.5, 104, 2, 3.1170068359374881">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PedidoCombustible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="301d892d-eeb3-48d1-872c-b4c6f876d0ad" absoluteBounds="4.515, 104.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b3f6964-b534-4fb3-8c46-0c06ffe43988" absoluteBounds="4.5, 107.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PedidoCombustibleDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e13454fa-485f-469c-a623-e419c87e363a" absoluteBounds="4.515, 108.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.75 : 105.621003417969); (4.5 : 105.621003417969)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/Pedido/Pedido_PedidoCombustible" />
+      <nodes>
+        <classShapeMoniker Id="eef21eb6-2f6d-4895-852d-3529d5562001" />
+        <classShapeMoniker Id="b34361d5-d696-411d-a688-f01a28220c94" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 107.117006835937); (5.5 : 107.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SAGASDataClassesDataContext/PedidoCombustible/PedidoCombustible_PedidoCombustibleDetalle" />
+      <nodes>
+        <classShapeMoniker Id="b34361d5-d696-411d-a688-f01a28220c94" />
+        <classShapeMoniker Id="7b3f6964-b534-4fb3-8c46-0c06ffe43988" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ef07274f-158d-4332-9485-9be1551137c1" absoluteBounds="1.625, 108.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/Terminal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c70006d2-0fb2-439b-a8fb-d916d7194e50" absoluteBounds="1.6400000000000001, 108.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5eafc215-9988-402f-a7cf-a4eff887242f" absoluteBounds="1.625, 110, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SAGASDataClassesDataContext/PedidoCompraNO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="611acf98-2a04-4fb4-8587-abc37720b79b" absoluteBounds="1.6400000000000001, 110.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

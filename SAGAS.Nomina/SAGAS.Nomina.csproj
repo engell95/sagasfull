@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{664D3375-C98C-46DF-BFAA-DBE14BAFDE05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAGAS.Nomina</RootNamespace>
+    <AssemblyName>SAGAS.Nomina</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Dialogs\DialogTipoMovEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTipoMovEmpleado.designer.cs">
+      <DependentUpon>DialogTipoMovEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTipoMovEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTipoMovEmpleado.designer.cs">
+      <DependentUpon>FormTipoMovEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPrestaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPrestaciones.designer.cs">
+      <DependentUpon>FormPrestaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAbonoCuota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAbonoCuota.designer.cs">
+      <DependentUpon>DialogAbonoCuota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEmpleadoIR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEmpleadoIR.Designer.cs">
+      <DependentUpon>FormEmpleadoIR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\dialogPagoAguinaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\dialogPagoAguinaldo.designer.cs">
+      <DependentUpon>dialogPagoAguinaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPagoAguinaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPagoAguinaldo.designer.cs">
+      <DependentUpon>FormPagoAguinaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPlanVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPlanVacaciones.designer.cs">
+      <DependentUpon>FormPlanVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptCambios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptCambios.designer.cs">
+      <DependentUpon>FormRptCambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormVacaciones.designer.cs">
+      <DependentUpon>FormVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormatoBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormatoBanco.designer.cs">
+      <DependentUpon>FormatoBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetReport.designer.cs">
+      <DependentUpon>DialogGetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMovimientoCorteEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMovimientoCorteEmpleado.designer.cs">
+      <DependentUpon>DialogMovimientoCorteEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGenerarPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGenerarPlanilla.designer.cs">
+      <DependentUpon>DialogGenerarPlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLiquidacionesEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLiquidacionesEmpleados.designer.cs">
+      <DependentUpon>FormLiquidacionesEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMovimientoCorteEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMovimientoCorteEmpleado.designer.cs">
+      <DependentUpon>FormMovimientoCorteEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAreaNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogAreaNomina.designer.cs">
+      <DependentUpon>DialogAreaNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCargo.designer.cs">
+      <DependentUpon>DialogCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEmpleado.designer.cs">
+      <DependentUpon>DialogEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogEO.designer.cs">
+      <DependentUpon>DialogEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMovimientoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogMovimientoEmpleado.designer.cs">
+      <DependentUpon>DialogMovimientoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogPlanilla.designer.cs">
+      <DependentUpon>DialogPlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProfesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProfesion.designer.cs">
+      <DependentUpon>DialogProfesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTipoAusencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTipoAusencia.designer.cs">
+      <DependentUpon>DialogTipoAusencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAreaNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAreaNomina.designer.cs">
+      <DependentUpon>FormAreaNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCargo.designer.cs">
+      <DependentUpon>FormCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEmpleado.Designer.cs">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEstruckOrgani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEstruckOrgani.designer.cs">
+      <DependentUpon>FormEstruckOrgani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMovimientoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMovimientoEmpleado.designer.cs">
+      <DependentUpon>FormMovimientoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPlanilla.Designer.cs">
+      <DependentUpon>FormPlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProfesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProfesion.designer.cs">
+      <DependentUpon>FormProfesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTrasladoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTrasladoEmpleado.designer.cs">
+      <DependentUpon>FormTrasladoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPlanillasGeneradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPlanillasGeneradas.Designer.cs">
+      <DependentUpon>FormPlanillasGeneradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FromTipoAusencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FromTipoAusencia.designer.cs">
+      <DependentUpon>FromTipoAusencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizCambioLaboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizCambioLaboral.designer.cs">
+      <DependentUpon>wizCambioLaboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizLiquidacion.designer.cs">
+      <DependentUpon>wizLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizMovimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizMovimiento.designer.cs">
+      <DependentUpon>wizMovimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizPagoVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Wizards\wizPagoVacaciones.designer.cs">
+      <DependentUpon>wizPagoVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Dialogs\DialogTipoMovEmpleado.resx">
+      <DependentUpon>DialogTipoMovEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTipoMovEmpleado.resx">
+      <DependentUpon>FormTipoMovEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPrestaciones.resx">
+      <DependentUpon>FormPrestaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogAbonoCuota.resx">
+      <DependentUpon>DialogAbonoCuota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEmpleadoIR.resx">
+      <DependentUpon>FormEmpleadoIR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\dialogPagoAguinaldo.resx">
+      <DependentUpon>dialogPagoAguinaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPagoAguinaldo.resx">
+      <DependentUpon>FormPagoAguinaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPlanVacaciones.resx">
+      <DependentUpon>FormPlanVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptCambios.resx">
+      <DependentUpon>FormRptCambios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormVacaciones.resx">
+      <DependentUpon>FormVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormatoBanco.resx">
+      <DependentUpon>FormatoBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogGetReport.resx">
+      <DependentUpon>DialogGetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogMovimientoCorteEmpleado.resx">
+      <DependentUpon>DialogMovimientoCorteEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogGenerarPlanilla.resx">
+      <DependentUpon>DialogGenerarPlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLiquidacionesEmpleados.resx">
+      <DependentUpon>FormLiquidacionesEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMovimientoCorteEmpleado.resx">
+      <DependentUpon>FormMovimientoCorteEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogAreaNomina.resx">
+      <DependentUpon>DialogAreaNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogCargo.resx">
+      <DependentUpon>DialogCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogEmpleado.resx">
+      <DependentUpon>DialogEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogEO.resx">
+      <DependentUpon>DialogEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogMovimientoEmpleado.resx">
+      <DependentUpon>DialogMovimientoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogPlanilla.resx">
+      <DependentUpon>DialogPlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogProfesion.resx">
+      <DependentUpon>DialogProfesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogTipoAusencia.resx">
+      <DependentUpon>DialogTipoAusencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAreaNomina.resx">
+      <DependentUpon>FormAreaNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCargo.resx">
+      <DependentUpon>FormCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEmpleado.resx">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEstruckOrgani.resx">
+      <DependentUpon>FormEstruckOrgani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMovimientoEmpleado.resx">
+      <DependentUpon>FormMovimientoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPlanilla.resx">
+      <DependentUpon>FormPlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProfesion.resx">
+      <DependentUpon>FormProfesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTrasladoEmpleado.resx">
+      <DependentUpon>FormTrasladoEmpleado.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPlanillasGeneradas.resx">
+      <DependentUpon>FormPlanillasGeneradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FromTipoAusencia.resx">
+      <DependentUpon>FromTipoAusencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Wizards\wizCambioLaboral.resx">
+      <DependentUpon>wizCambioLaboral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Wizards\wizLiquidacion.resx">
+      <DependentUpon>wizLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Wizards\wizMovimiento.resx">
+      <DependentUpon>wizMovimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Wizards\wizPagoVacaciones.resx">
+      <DependentUpon>wizPagoVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.AreaNomina.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.IRRetenido.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.ProfesionOficio.datasource" />
+    <None Include="Properties\DataSources\SAGAS.Entidad.VistaEmleados.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAGAS.Entidad\SAGAS.Entidad.csproj">
+      <Project>{D8F40A99-8E83-4F04-8059-56D2755B0D8D}</Project>
+      <Name>SAGAS.Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Parametros\SAGAS.Parametros.csproj">
+      <Project>{1E0CCE69-12B6-4273-9F61-B9D16ED8B56A}</Project>
+      <Name>SAGAS.Parametros</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Reportes\SAGAS.Reportes.csproj">
+      <Project>{fedc25ea-6d33-460a-85cb-9f8f82ee33e8}</Project>
+      <Name>SAGAS.Reportes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_put.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard_invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank_transaction_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_zoom_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sallary_deferrais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{896994FE-2B0A-4EDF-A8E2-226AC30C84DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAGAS.Contabilidad</RootNamespace>
+    <AssemblyName>SAGAS.Contabilidad</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Win, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Dialogs\DialogCierrePeriodoFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCierrePeriodoFiscal.designer.cs">
+      <DependentUpon>DialogCierrePeriodoFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogConceptoOperativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogConceptoOperativo.designer.cs">
+      <DependentUpon>DialogConceptoOperativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogGetFecha.designer.cs">
+      <DependentUpon>DialogGetFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSeleccionarOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogSeleccionarOrden.designer.cs">
+      <DependentUpon>DialogSeleccionarOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCierrePeriodoFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCierrePeriodoFiscal.Designer.cs">
+      <DependentUpon>FormCierrePeriodoFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConceptoOperativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConceptoOperativo.Designer.cs">
+      <DependentUpon>FormConceptoOperativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptEstadoResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptEstadoResultado.designer.cs">
+      <DependentUpon>FormRptEstadoResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCierre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCierre.designer.cs">
+      <DependentUpon>DialogCierre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCierre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCierre.designer.cs">
+      <DependentUpon>FormCierre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptBalanceGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptBalanceGeneral.designer.cs">
+      <DependentUpon>FormRptBalanceGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptBalanzaComprobacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptBalanzaComprobacion.designer.cs">
+      <DependentUpon>FormRptBalanzaComprobacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogComprobanteContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogComprobanteContable.designer.cs">
+      <DependentUpon>DialogComprobanteContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogShowComprobanteMultiES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogShowComprobanteMultiES.designer.cs">
+      <DependentUpon>DialogShowComprobanteMultiES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogConceptoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogConceptoContable.designer.cs">
+      <DependentUpon>DialogConceptoContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConceptosContables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConceptosContables.Designer.cs">
+      <DependentUpon>FormConceptosContables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCentroCosto.designer.cs">
+      <DependentUpon>DialogCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProvisiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogProvisiones.designer.cs">
+      <DependentUpon>DialogProvisiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCentroCosto.Designer.cs">
+      <DependentUpon>FormCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogShowComprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogShowComprobante.designer.cs">
+      <DependentUpon>DialogShowComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCuentaContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogCuentaContable.designer.cs">
+      <DependentUpon>DialogCuentaContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTablaImpuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTablaImpuesto.designer.cs">
+      <DependentUpon>DialogTablaImpuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormComprobanteContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormComprobanteContable.Designer.cs">
+      <DependentUpon>FormComprobanteContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProvisiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProvisiones.Designer.cs">
+      <DependentUpon>FormProvisiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCuentaContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCuentaContable.Designer.cs">
+      <DependentUpon>FormCuentaContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTipoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\DialogTipoCuenta.designer.cs">
+      <DependentUpon>DialogTipoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRptDetalleCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRptDetalleCuenta.designer.cs">
+      <DependentUpon>FormRptDetalleCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTablaImpuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTablaImpuesto.Designer.cs">
+      <DependentUpon>FormTablaImpuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTipoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTipoCuenta.Designer.cs">
+      <DependentUpon>FormTipoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Dialogs\DialogCierrePeriodoFiscal.resx">
+      <DependentUpon>DialogCierrePeriodoFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogConceptoOperativo.resx">
+      <DependentUpon>DialogConceptoOperativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogGetFecha.resx">
+      <DependentUpon>DialogGetFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogSeleccionarOrden.resx">
+      <DependentUpon>DialogSeleccionarOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCierrePeriodoFiscal.resx">
+      <DependentUpon>FormCierrePeriodoFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConceptoOperativo.resx">
+      <DependentUpon>FormConceptoOperativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptEstadoResultado.resx">
+      <DependentUpon>FormRptEstadoResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogCierre.resx">
+      <DependentUpon>DialogCierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCierre.resx">
+      <DependentUpon>FormCierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptBalanceGeneral.resx">
+      <DependentUpon>FormRptBalanceGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptBalanzaComprobacion.resx">
+      <DependentUpon>FormRptBalanzaComprobacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogComprobanteContable.resx">
+      <DependentUpon>DialogComprobanteContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogShowComprobanteMultiES.resx">
+      <DependentUpon>DialogShowComprobanteMultiES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogConceptoContable.resx">
+      <DependentUpon>DialogConceptoContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConceptosContables.resx">
+      <DependentUpon>FormConceptosContables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogCentroCosto.resx">
+      <DependentUpon>DialogCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogProvisiones.resx">
+      <DependentUpon>DialogProvisiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCentroCosto.resx">
+      <DependentUpon>FormCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogShowComprobante.resx">
+      <DependentUpon>DialogShowComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogCuentaContable.resx">
+      <DependentUpon>DialogCuentaContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogTablaImpuesto.resx">
+      <DependentUpon>DialogTablaImpuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormComprobanteContable.resx">
+      <DependentUpon>FormComprobanteContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProvisiones.resx">
+      <DependentUpon>FormProvisiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCuentaContable.resx">
+      <DependentUpon>FormCuentaContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\DialogTipoCuenta.resx">
+      <DependentUpon>DialogTipoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRptDetalleCuenta.resx">
+      <DependentUpon>FormRptDetalleCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTablaImpuesto.resx">
+      <DependentUpon>FormTablaImpuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTipoCuenta.resx">
+      <DependentUpon>FormTipoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAGAS.Entidad\SAGAS.Entidad.csproj">
+      <Project>{D8F40A99-8E83-4F04-8059-56D2755B0D8D}</Project>
+      <Name>SAGAS.Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Parametros\SAGAS.Parametros.csproj">
+      <Project>{1E0CCE69-12B6-4273-9F61-B9D16ED8B56A}</Project>
+      <Name>SAGAS.Parametros</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAGAS.Reportes\SAGAS.Reportes.csproj">
+      <Project>{FEDC25EA-6D33-460A-85CB-9F8F82EE33E8}</Project>
+      <Name>SAGAS.Reportes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowcurve18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetPass24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uncheck18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_put.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_break.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
